@@ -28,6 +28,8 @@ public class LoginTests extends TestUtilities {
 
 		// Explicit wait
 		MundijuegosPage.waitForAccountName();
+		
+		log.info("TESSSSSSSSSSSSSSSSST");
 
 		// Verifications:
 		// Check if account name is displayed

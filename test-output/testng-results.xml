@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-07-06T11:51:12Z" name="VideoBingoTestSuite" finished-at="2020-07-06T11:51:41Z" duration-ms="28364">
+  <suite started-at="2020-07-06T15:19:00Z" name="LogoutTestSuite" finished-at="2020-07-06T15:19:24Z" duration-ms="23811">
     <groups>
     </groups>
-    <test started-at="2020-07-06T11:51:12Z" name="VideoBingoTest - CHROME" finished-at="2020-07-06T11:51:27Z" duration-ms="14676">
-      <class name="com.mundijuegos.videoBingo.VideoBingoTest">
-        <test-method is-config="true" signature="Setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.mundijuegos.videoBingo.VideoBingoTest@4bf48f6]" started-at="2020-07-06T11:51:12Z" name="Setup" finished-at="2020-07-06T11:51:19Z" duration-ms="6239" status="PASS">
+    <test started-at="2020-07-06T15:19:00Z" name="LogoutTest - CHROME" finished-at="2020-07-06T15:19:13Z" duration-ms="13300">
+      <class name="com.mundijuegos.logoutTest.LogoutTests">
+        <test-method is-config="true" signature="Setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.mundijuegos.logoutTest.LogoutTests@4bf48f6]" started-at="2020-07-06T15:19:00Z" name="Setup" finished-at="2020-07-06T15:19:07Z" duration-ms="6743" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -16,14 +16,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@64984b0f]]>
+                <![CDATA[org.testng.TestRunner@2436ea2f]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="launchVideoBingo(java.lang.String, java.lang.String)[pri:1, instance:com.mundijuegos.videoBingo.VideoBingoTest@4bf48f6]" started-at="2020-07-06T11:51:19Z" name="launchVideoBingo" finished-at="2020-07-06T11:51:26Z" duration-ms="7716" status="PASS">
+        <test-method signature="logoutTest(java.lang.String, java.lang.String)[pri:1, instance:com.mundijuegos.logoutTest.LogoutTests@4bf48f6]" started-at="2020-07-06T15:19:07Z" name="logoutTest" finished-at="2020-07-06T15:19:13Z" duration-ms="5830" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -38,16 +38,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchVideoBingo -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mundijuegos.videoBingo.VideoBingoTest@4bf48f6]" started-at="2020-07-06T11:51:26Z" name="tearDown" finished-at="2020-07-06T11:51:27Z" duration-ms="695" status="PASS">
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mundijuegos.logoutTest.LogoutTests@4bf48f6]" started-at="2020-07-06T15:19:13Z" name="tearDown" finished-at="2020-07-06T15:19:13Z" duration-ms="697" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.mundijuegos.videoBingo.VideoBingoTest -->
-    </test> <!-- VideoBingoTest - CHROME -->
-    <test started-at="2020-07-06T11:51:27Z" name="VideoBingoTest - FIREFOX" finished-at="2020-07-06T11:51:41Z" duration-ms="13652">
-      <class name="com.mundijuegos.videoBingo.VideoBingoTest">
-        <test-method is-config="true" signature="Setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.mundijuegos.videoBingo.VideoBingoTest@1e81f160]" started-at="2020-07-06T11:51:27Z" name="Setup" finished-at="2020-07-06T11:51:31Z" duration-ms="3572" status="PASS">
+      </class> <!-- com.mundijuegos.logoutTest.LogoutTests -->
+    </test> <!-- LogoutTest - CHROME -->
+    <test started-at="2020-07-06T15:19:13Z" name="LogoutTest - FIREFOX" finished-at="2020-07-06T15:19:24Z" duration-ms="10477">
+      <class name="com.mundijuegos.logoutTest.LogoutTests">
+        <test-method is-config="true" signature="Setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.mundijuegos.logoutTest.LogoutTests@1e81f160]" started-at="2020-07-06T15:19:13Z" name="Setup" finished-at="2020-07-06T15:19:17Z" duration-ms="3538" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -56,14 +56,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@292158f8]]>
+                <![CDATA[org.testng.TestRunner@f951a7f]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="launchVideoBingo(java.lang.String, java.lang.String)[pri:1, instance:com.mundijuegos.videoBingo.VideoBingoTest@1e81f160]" started-at="2020-07-06T11:51:31Z" name="launchVideoBingo" finished-at="2020-07-06T11:51:39Z" duration-ms="8335" status="PASS">
+        <test-method signature="logoutTest(java.lang.String, java.lang.String)[pri:1, instance:com.mundijuegos.logoutTest.LogoutTests@1e81f160]" started-at="2020-07-06T15:19:17Z" name="logoutTest" finished-at="2020-07-06T15:19:23Z" duration-ms="5619" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -78,12 +78,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchVideoBingo -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mundijuegos.videoBingo.VideoBingoTest@1e81f160]" started-at="2020-07-06T11:51:39Z" name="tearDown" finished-at="2020-07-06T11:51:41Z" duration-ms="1742" status="PASS">
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mundijuegos.logoutTest.LogoutTests@1e81f160]" started-at="2020-07-06T15:19:23Z" name="tearDown" finished-at="2020-07-06T15:19:24Z" duration-ms="1317" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.mundijuegos.videoBingo.VideoBingoTest -->
-    </test> <!-- VideoBingoTest - FIREFOX -->
-  </suite> <!-- VideoBingoTestSuite -->
+      </class> <!-- com.mundijuegos.logoutTest.LogoutTests -->
+    </test> <!-- LogoutTest - FIREFOX -->
+  </suite> <!-- LogoutTestSuite -->
 </testng-results>
