@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="VideoBingoTestSuite" verbose="1">
+
+	<test name="VideoBingoTest - CHROME">
+		<parameter name="browser" value="chrome" />
+		<parameter name="username" value="Nicoroots" />
+		<parameter name="password" value="Baator1985" />
+		<classes>
+			<class name="com.mundijuegos.videoBingo.VideoBingoTest" />
+		</classes>
+	</test>
+	
+	<test name="VideoBingoTest - FIREFOX">
+		<parameter name="browser" value="firefox" />
+		<parameter name="username" value="Nicoroots" />
+		<parameter name="password" value="Baator1985" />
+		<classes>
+			<class name="com.mundijuegos.videoBingo.VideoBingoTest" />
+		</classes>
+	</test>
+
+</suite>

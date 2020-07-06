@@ -1,0 +1,11 @@
+com\mundijuegos\pages\loginErrorPageObject.class
+com\mundijuegos\pages\LogoutPageObject.class
+com\mundijuegos\base\BrowserDriverFactory.class
+com\mundijuegos\pages\FacebookLoginPageObject.class
+com\mundijuegos\pages\BasePageObject.class
+com\mundijuegos\base\BaseTest.class
+com\mundijuegos\pages\GoogleLoginPageObject.class
+com\mundijuegos\base\TestUtilities.class
+com\mundijuegos\pages\VideoBingoPageObject.class
+com\mundijuegos\pages\VideoBingoGamePageObject.class
+com\mundijuegos\pages\MundijuegosPageObject.class

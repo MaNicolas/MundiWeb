@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="tests" name="Failed suite [LoginTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="4" parallel="tests" name="PositiveTest - FIREFOX(failed)">
+    <parameter name="password" value="Baator1985"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="username" value="Nicoroots"/>
+    <groups>
+      <run>
+        <include name="positiveTests"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.mundijuegos.loginPageTest.LoginTests">
+        <methods>
+          <include name="positiveLoginTest"/>
+          <include name="Setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mundijuegos.loginPageTest.LoginTests -->
+    </classes>
+  </test> <!-- PositiveTest - FIREFOX(failed) -->
+</suite> <!-- Failed suite [LoginTestSuite] -->

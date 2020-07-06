@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [LoginTestWithFacebookSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="PositiveTest - FIREFOX(failed)" verbose="0">
+    <parameter name="password" value="Baator1985"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="username" value="nicotangelo1@gmail.com"/>
+    <groups>
+      <run>
+        <include name="positiveTests"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.mundijuegos.loginWithFacebook.LoginWithFacebookTest">
+        <methods>
+          <include name="positiveFacebookLoginTest" invocation-numbers="0"/>
+          <include name="Setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mundijuegos.loginWithFacebook.LoginWithFacebookTest -->
+    </classes>
+  </test> <!-- PositiveTest - FIREFOX(failed) -->
+</suite> <!-- Failed suite [LoginTestWithFacebookSuite] -->

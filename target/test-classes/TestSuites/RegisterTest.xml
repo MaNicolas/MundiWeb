@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="RegisterTestSuite" verbose="1">
+
+	<test name="RegisterTest - CHROME">
+		<classes>
+			<class name="com.mundijuegos.registerTest.RegisterTest" />
+		</classes>
+	</test>
+	
+	<test name="RegisterTest - FIREFOX">
+		<classes>
+			<class name="com.mundijuegos.registerTest.RegisterTest" />
+		</classes>
+	</test>
+
+</suite>

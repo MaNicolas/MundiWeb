@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="LoginTestWithGoogleSuite" verbose="1">
+<!--  -->
+	<test name="PositiveTest - CHROME">
+		<parameter name="browser" value="chrome" />
+		<parameter name="username" value="nicotangelo1@gmail.com" />
+		<parameter name="password" value="Baator1985" />
+		<groups>
+			<run>
+				<include name="positiveTests"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.mundijuegos.loginWithGoogle.LoginWithGoogleTests" />
+		</classes>
+	</test>
+	
+	<test name="PositiveTest - FIREFOX">
+		<parameter name="browser" value="firefox" />
+		<parameter name="username" value="nicotangelo1@gmail.com" />
+		<parameter name="password" value="Baator1985" />
+		<groups>
+			<run>
+				<include name="positiveTests"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.mundijuegos.loginWithGoogle.LoginWithGoogleTests" />
+		</classes>
+	</test>
+
+</suite>

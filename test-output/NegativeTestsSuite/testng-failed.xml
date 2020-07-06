@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NegativeTestsSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="NegativeUsernameTests(failed)">
+    <parameter name="password" value="Baator1985"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="username" value="Nicoroots"/>
+    <classes>
+      <class name="com.mundijuegos.LoginTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="negativeLoginTests" invocation-numbers="0"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.mundijuegos.LoginTests -->
+    </classes>
+  </test> <!-- NegativeUsernameTests(failed) -->
+</suite> <!-- Failed suite [NegativeTestsSuite] -->

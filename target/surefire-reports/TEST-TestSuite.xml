@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="195.308" tests="14" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="webdriver.chrome.driver" value="src/main/resources/chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Nico\eclipse-workspace\AutomationTestingForMundijuegos\target\test-classes;C:\Users\Nico\eclipse-workspace\AutomationTestingForMundijuegos\target\classes;C:\Users\Nico\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Nico\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Nico\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Nico\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Nico\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Nico\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Nico\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Nico\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Nico\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Nico\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Nico\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Nico\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Nico\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Nico\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Nico\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Nico\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Nico\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Nico\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Nico\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Nico\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Nico\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Nico\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Nico\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Nico\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.1\log4j-api-2.13.1.jar;C:\Users\Nico\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.1\log4j-core-2.13.1.jar;C:\Users\Nico\.m2\repository\org\apache\commons\commons-lang3\3.10\commons-lang3-3.10.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.6\bin"/>
+    <property name="sun.java.command" value="C:\Users\Nico\AppData\Local\Temp\surefire12328390928204196225\surefirebooter7937194502160059850.jar C:\Users\Nico\AppData\Local\Temp\surefire12328390928204196225 2020-07-06T14-06-16_279-jvmRun1 surefire13340936830884281145tmp surefire_016807227583556810158tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Nico\eclipse-workspace\AutomationTestingForMundijuegos\target\test-classes;C:\Users\Nico\eclipse-workspace\AutomationTestingForMundijuegos\target\classes;C:\Users\Nico\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Nico\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Nico\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Nico\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Nico\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Nico\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Nico\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Nico\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Nico\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Nico\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Nico\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Nico\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Nico\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Nico\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Nico\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Nico\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Nico\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Nico\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Nico\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Nico\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Nico\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Nico\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Nico\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Nico\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.1\log4j-api-2.13.1.jar;C:\Users\Nico\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.1\log4j-core-2.13.1.jar;C:\Users\Nico\.m2\repository\org\apache\commons\commons-lang3\3.10\commons-lang3-3.10.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Nico"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.6"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Nico\eclipse-workspace\AutomationTestingForMundijuegos"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Nico\AppData\Local\Temp\surefire12328390928204196225\surefirebooter7937194502160059850.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.6+8-LTS"/>
+    <property name="user.name" value="Nico"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\Nico\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Nico\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.6"/>
+    <property name="user.dir" value="C:\Users\Nico\eclipse-workspace\AutomationTestingForMundijuegos"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="webdriver.gecko.driver" value="src/main/resources/geckodriver.exe"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.6\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-11.0.6/bin/server;C:/Program Files/Java/jdk-11.0.6/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.6\bin;C:\Program Files\apache-maven-3.6.3\bin;C:\Users\Nico\AppData\Local\Microsoft\WindowsApps;C:\Users\Nico\AppData\Local\GitHubDesktop\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;C:\WINDOWS\System32;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.6+8-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="positiveLoginTest" classname="com.mundijuegos.loginTest.LoginTests" time="4.197"/>
+  <testcase name="positiveLoginTest" classname="com.mundijuegos.loginTest.LoginTests" time="4.746"/>
+  <testcase name="negativeLoginTests" classname="com.mundijuegos.loginTest.LoginTests" time="3.146"/>
+  <testcase name="negativeLoginTests" classname="com.mundijuegos.loginTest.LoginTests" time="3.209"/>
+  <testcase name="logoutTest" classname="com.mundijuegos.logoutTest.LogoutTests" time="5.254"/>
+  <testcase name="logoutTest" classname="com.mundijuegos.logoutTest.LogoutTests" time="5.472"/>
+  <testcase name="positiveFacebookLoginTest" classname="com.mundijuegos.loginWithFacebook.LoginWithFacebookTest" time="8.08"/>
+  <testcase name="positiveFacebookLoginTest" classname="com.mundijuegos.loginWithFacebook.LoginWithFacebookTest" time="35.438">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //a[@id=&apos;header-user-nom&apos;] (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //a[@id='header-user-nom'] (tried for 30 second(s) with 500 milliseconds interval)
+	at com.mundijuegos.loginWithFacebook.LoginWithFacebookTest.positiveFacebookLoginTest(LoginWithFacebookTest.java:33)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //a[@id='header-user-nom']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.1.52', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 77.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200602222727, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 12688, moz:profile: C:\Users\Nico\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 54c70118-443c-4d5f-80ad-b2335ac06e64
+*** Element info: {Using=xpath, value=//a[@id='header-user-nom']}
+	at com.mundijuegos.loginWithFacebook.LoginWithFacebookTest.positiveFacebookLoginTest(LoginWithFacebookTest.java:33)
+]]></failure>
+    <system-out><![CDATA[[main] 14:07:32,010 INFO  [PositiveTest - CHROME] ======TEST==COMPLETE======
+[main] 14:07:32,015 INFO  [PositiveTest - FIREFOX] Create driver: firefox
+[main] 14:07:35,558 INFO  [PositiveTest - FIREFOX] Starting positive loginTest with Facebook
+[main] 14:07:35,558 INFO  [PositiveTest - FIREFOX] Opening page: https://www.mundijuegos.com/
+[main] 14:07:37,538 INFO  [PositiveTest - FIREFOX] Page opened
+[main] 14:07:37,538 INFO  [PositiveTest - FIREFOX] Clicking on login button
+[main] 14:07:38,270 INFO  [PositiveTest - FIREFOX] First window's title is 10
+[main] 14:07:38,280 INFO  [PositiveTest - FIREFOX] Executing login on facebook with username [nicotangelo1@gmail.com] and password [Baator1985].
+]]></system-out>
+    <system-err><![CDATA[1594037252544	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Nico\\AppData\\Local\\Temp\\rust_mozprofileGBq7jE"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1594037255056	Marionette	INFO	Listening on port 60808
+1594037255193	Marionette	WARN	TLS certificate errors will be ignored for this session
+juil. 06, 2020 2:07:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 203: NS_ERROR_FAILURE: Should pass a non-null uri
+]]></system-err>
+  </testcase>
+  <testcase name="positiveGoogleLoginTest" classname="com.mundijuegos.loginWithGoogle.LoginWithGoogleTests" time="9.896"/>
+  <testcase name="positiveGoogleLoginTest" classname="com.mundijuegos.loginWithGoogle.LoginWithGoogleTests" time="8.254"/>
+  <testcase name="registerTest" classname="com.mundijuegos.registerTest.RegisterTest" time="4.716"/>
+  <testcase name="registerTest" classname="com.mundijuegos.registerTest.RegisterTest" time="5.953"/>
+  <testcase name="launchVideoBingo" classname="com.mundijuegos.videoBingo.VideoBingoTest" time="8.264"/>
+  <testcase name="launchVideoBingo" classname="com.mundijuegos.videoBingo.VideoBingoTest" time="8.844"/>
+</testsuite>
