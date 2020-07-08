@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-07-08T06:42:14Z" name="VideoBingoTestSuite" finished-at="2020-07-08T06:42:42Z" duration-ms="28203">
+  <suite started-at="2020-07-08T08:11:02Z" name="VideoBingoTestSuite" finished-at="2020-07-08T08:11:41Z" duration-ms="39669">
     <groups>
     </groups>
-    <test started-at="2020-07-08T06:42:14Z" name="VideoBingoTest - CHROME" finished-at="2020-07-08T06:42:30Z" duration-ms="15844">
+    <test started-at="2020-07-08T08:11:02Z" name="VideoBingoTest - CHROME" finished-at="2020-07-08T08:11:24Z" duration-ms="22269">
       <class name="com.mundijuegos.videoBingo.VideoBingoTest">
-        <test-method is-config="true" signature="Setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.mundijuegos.videoBingo.VideoBingoTest@4bf48f6]" started-at="2020-07-08T06:42:14Z" name="Setup" finished-at="2020-07-08T06:42:20Z" duration-ms="6314" status="PASS">
+        <test-method is-config="true" signature="Setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.mundijuegos.videoBingo.VideoBingoTest@4bf48f6]" started-at="2020-07-08T08:11:02Z" name="Setup" finished-at="2020-07-08T08:11:08Z" duration-ms="6206" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -16,14 +16,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@73c9e8e8]]>
+                <![CDATA[org.testng.TestRunner@5292ceca]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="launchVideoBingo(java.lang.String, java.lang.String)[pri:1, instance:com.mundijuegos.videoBingo.VideoBingoTest@4bf48f6]" started-at="2020-07-08T06:42:20Z" name="launchVideoBingo" finished-at="2020-07-08T06:42:29Z" duration-ms="8864" status="PASS">
+        <test-method signature="launchVideoBingo(java.lang.String, java.lang.String)[pri:1, instance:com.mundijuegos.videoBingo.VideoBingoTest@4bf48f6]" started-at="2020-07-08T08:11:08Z" name="launchVideoBingo" finished-at="2020-07-08T08:11:23Z" duration-ms="15315" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,15 +39,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchVideoBingo -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mundijuegos.videoBingo.VideoBingoTest@4bf48f6]" started-at="2020-07-08T06:42:29Z" name="tearDown" finished-at="2020-07-08T06:42:30Z" duration-ms="641" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mundijuegos.videoBingo.VideoBingoTest@4bf48f6]" started-at="2020-07-08T08:11:23Z" name="tearDown" finished-at="2020-07-08T08:11:24Z" duration-ms="720" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.mundijuegos.videoBingo.VideoBingoTest -->
     </test> <!-- VideoBingoTest - CHROME -->
-    <test started-at="2020-07-08T06:42:30Z" name="VideoBingoTest - FIREFOX" finished-at="2020-07-08T06:42:42Z" duration-ms="12322">
+    <test started-at="2020-07-08T08:11:24Z" name="VideoBingoTest - FIREFOX" finished-at="2020-07-08T08:11:41Z" duration-ms="17366">
       <class name="com.mundijuegos.videoBingo.VideoBingoTest">
-        <test-method is-config="true" signature="Setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.mundijuegos.videoBingo.VideoBingoTest@1e81f160]" started-at="2020-07-08T06:42:30Z" name="Setup" finished-at="2020-07-08T06:42:33Z" duration-ms="3540" status="PASS">
+        <test-method is-config="true" signature="Setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.mundijuegos.videoBingo.VideoBingoTest@1e81f160]" started-at="2020-07-08T08:11:24Z" name="Setup" finished-at="2020-07-08T08:11:28Z" duration-ms="3553" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -56,14 +56,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@de8039f]]>
+                <![CDATA[org.testng.TestRunner@13d9261f]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="launchVideoBingo(java.lang.String, java.lang.String)[pri:1, instance:com.mundijuegos.videoBingo.VideoBingoTest@1e81f160]" started-at="2020-07-08T06:42:33Z" name="launchVideoBingo" finished-at="2020-07-08T06:42:41Z" duration-ms="7361" status="PASS">
+        <test-method signature="launchVideoBingo(java.lang.String, java.lang.String)[pri:1, instance:com.mundijuegos.videoBingo.VideoBingoTest@1e81f160]" started-at="2020-07-08T08:11:28Z" name="launchVideoBingo" finished-at="2020-07-08T08:11:40Z" duration-ms="12305" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -79,7 +79,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchVideoBingo -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mundijuegos.videoBingo.VideoBingoTest@1e81f160]" started-at="2020-07-08T06:42:41Z" name="tearDown" finished-at="2020-07-08T06:42:42Z" duration-ms="1418" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mundijuegos.videoBingo.VideoBingoTest@1e81f160]" started-at="2020-07-08T08:11:40Z" name="tearDown" finished-at="2020-07-08T08:11:41Z" duration-ms="1505" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
