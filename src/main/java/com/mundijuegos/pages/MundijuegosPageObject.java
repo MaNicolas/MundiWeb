@@ -26,7 +26,7 @@ public class MundijuegosPageObject extends BasePageObject{
 	private By registerSex = By.xpath("(//input[@id='radioavv'])[position()=2]");
 	private By registerSubmit = By.id("submitregister");
 	private By acceptConditions = By.id("termsofuse");
-	private By videoBingoLocator = By.xpath("(//a[@href='/multijugador/video-bingo/'])[position()=1]");
+	private By videoBingoLocator = By.xpath("(//a[@href='/multijugador/video-bingo/'])[position()=2]");
 	
 	//Constructor
 	public MundijuegosPageObject(WebDriver driver, Logger log) {
