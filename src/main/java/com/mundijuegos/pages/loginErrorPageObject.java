@@ -4,7 +4,7 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class loginErrorPageObject extends BasePageObject {
+public class loginErrorPageObject extends HeaderAndFooterPageObject {
 
 	// Locators
 	private By errorMessage = By.xpath("//h1[text()='Usuario o contraseña incorrectos...']");
