@@ -86,7 +86,6 @@ public class HeaderAndFooterPageObject extends BasePageObject {
 	/** Log out **/
 	public LogoutPageObject logout() {
 		click(dropdownButton);
-		sleep(3000);
 		click(logoutButton);
 		return new LogoutPageObject(driver, log);
 	}
