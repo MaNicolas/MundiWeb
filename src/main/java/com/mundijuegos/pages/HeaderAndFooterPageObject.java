@@ -71,7 +71,7 @@ public class HeaderAndFooterPageObject extends BasePageObject {
 	/** Log out **/
 	public LogoutPageObject logout() {
 		click(dropdownButton);
-		waitForVisibilityOf(logoutButton, 10);
+		waitForVisibilityOf(logoutButton, 30);
 		click(logoutButton);
 		return new LogoutPageObject(driver, log);
 	}

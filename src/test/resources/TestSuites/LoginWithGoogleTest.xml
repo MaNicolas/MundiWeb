@@ -2,7 +2,7 @@
 
 <suite name="LoginTestWithGoogleSuite" verbose="1">
 
-	<test name="PositiveTest - CHROME">
+	<test name="PositiveTest - Google - CHROME">
 		<parameter name="browser" value="chrome" />
 		<parameter name="username" value="nicotangelo1@gmail.com" />
 		<parameter name="password" value="Baator1985" />
@@ -16,7 +16,7 @@
 		</classes>
 	</test>
 	
-	<test name="PositiveTest - FIREFOX">
+	<test name="PositiveTest - Google - FIREFOX">
 		<parameter name="browser" value="firefox" />
 		<parameter name="username" value="nicotangelo1@gmail.com" />
 		<parameter name="password" value="Baator1985" />

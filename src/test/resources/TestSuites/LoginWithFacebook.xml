@@ -2,7 +2,7 @@
 
 <suite name="LoginTestWithFacebookSuite" verbose="1">
 
-	<test name="PositiveTest - CHROME">
+	<test name="PositiveTest - Facebook - CHROME">
 		<parameter name="browser" value="chrome" />
 		<parameter name="username" value="nicotangelo1@gmail.com" />
 		<parameter name="password" value="Baator1985" />
@@ -16,7 +16,7 @@
 		</classes>
 	</test>
 	
-	<test name="PositiveTest - FIREFOX">
+	<test name="PositiveTest- Facebook - FIREFOX">
 		<parameter name="browser" value="firefox" />
 		<parameter name="username" value="nicotangelo1@gmail.com" />
 		<parameter name="password" value="Baator1985" />
@@ -30,7 +30,7 @@
 		</classes>
 	</test>
 
-	<test name="NegativeTests - CHROME">
+	<test name="NegativeTests - Facebook - CHROME">
 		<parameter name="browser" value="chrome" />
 		<parameter name="username" value="nicotangelo1@gmail.com" />
 		<parameter name="password" value="IncorrectPassword" />
@@ -44,7 +44,7 @@
 		</classes>
 	</test>
 	
-	<test name="NegativeTests - FIREFOX">
+	<test name="NegativeTests - Facebook - FIREFOX">
 		<parameter name="browser" value="firefox" />
 		<parameter name="username" value="nicotangelo1@gmail.com" />
 		<parameter name="password" value="IncorrectPassword" />
