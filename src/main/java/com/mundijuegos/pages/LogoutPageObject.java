@@ -17,7 +17,7 @@ public class LogoutPageObject extends HeaderAndFooterPageObject {
 	
 	//Methods
 	/** Returns log out page url **/
-	public String getPageUrl() {
+	public String getExpectedUrl() {
 		return pageUrl;
 	}
 }

@@ -10,7 +10,7 @@ public class MundijuegosPageObject extends HeaderAndFooterPageObject {
 	private String pageUrl = "https://www.mundijuegos.com/";
 
 	// Locators
-	private By videoBingoLocator = By.xpath("(//a[@href='/multijugador/video-bingo/'])[position()=2]");
+	private By videoBingoLocator = By.id("game-68-link");
 
 	// Constructor
 	public MundijuegosPageObject(WebDriver driver, Logger log) {

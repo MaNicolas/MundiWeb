@@ -34,8 +34,8 @@ public class LogoutTests extends TestUtilities{
 
 		// Verifications:
 		// Check if Url is correct
-		String expectedUrl = "https://www.mundijuegos.com/register/logout2.php";
-		String actualUrl = logoutPage.getPageUrl();
+		String expectedUrl = logoutPage.getExpectedUrl();
+		String actualUrl = logoutPage.getCurrentUrl();
 		Assert.assertEquals(actualUrl, expectedUrl, "Logout has failed");
 	}
 }

@@ -13,9 +13,9 @@ public class HeaderAndFooterPageObject extends BasePageObject {
 	protected By signInButton = By.id("submitballoon-login");
 	protected By accountName = By.xpath("//a[@id='header-user-nom']");
 	protected By dropdownButton = By.id("header-user-dropdown");
-	protected By logoutButton = By.xpath("//a[@href='/register/logout.php']");
-	protected By loginWithFacebookButton = By.xpath("//a[@href='/register/registrocontrolfb.php?canal_id=0&game_origin=&bu_lang=es']");
-	protected By loginWithGoogleButton = By.xpath("/html/body/div/div/div/div/ul/div/div/form/div/div");
+	protected By logoutButton = By.xpath("//a[@id='user_logout_btn']");
+	protected By loginWithFacebookButton = By.id("fb-signin-btn");
+	protected By loginWithGoogleButton = By.id("g-signin-btn");
 	protected By registerButton = By.id("header-register-button");
 	protected By registerUsername = By.id("userregister");
 	protected By registerPassword = By.id("passwordregister");

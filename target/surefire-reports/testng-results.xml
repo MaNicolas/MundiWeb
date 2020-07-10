@@ -2,11 +2,11 @@
 <testng-results ignored="10" total="24" passed="14" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-07-08T15:22:44Z" name="CompleteTest" finished-at="2020-07-08T15:22:44Z" duration-ms="0">
+  <suite started-at="2020-07-10T06:15:02Z" name="CompleteTest" finished-at="2020-07-10T06:15:02Z" duration-ms="0">
     <groups>
     </groups>
   </suite> <!-- CompleteTest -->
-  <suite started-at="2020-07-08T15:19:49Z" name="LoginTestSuite" finished-at="2020-07-08T15:20:27Z" duration-ms="38154">
+  <suite started-at="2020-07-10T06:11:44Z" name="LoginTestSuite" finished-at="2020-07-10T06:12:32Z" duration-ms="47449">
     <groups>
       <group name="positiveTests">
         <method signature="LoginTests.positiveLoginTest(java.lang.String, java.lang.String)[pri:1, instance:com.mundijuegos.loginTest.LoginTests@3116c353]" name="positiveLoginTest" class="com.mundijuegos.loginTest.LoginTests"/>
@@ -17,13 +17,537 @@
         <method signature="LoginTests.negativeLoginTests(java.lang.String, java.lang.String)[pri:2, instance:com.mundijuegos.loginTest.LoginTests@a82c5f1]" name="negativeLoginTests" class="com.mundijuegos.loginTest.LoginTests"/>
       </group> <!-- negativeTests -->
     </groups>
-    <test started-at="2020-07-08T15:19:49Z" name="PositiveTest - CHROME" finished-at="2020-07-08T15:20:01Z" duration-ms="11644">
+    <test started-at="2020-07-10T06:11:44Z" name="PositiveTest - CHROME" finished-at="2020-07-10T06:11:58Z" duration-ms="13715">
       <class name="com.mundijuegos.loginTest.LoginTests">
-        <test-method is-config="true" signature="Setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.mundijuegos.loginTest.LoginTests@3116c353]" started-at="2020-07-08T15:19:49Z" name="Setup" finished-at="2020-07-08T15:19:55Z" duration-ms="6182" status="PASS">
+        <test-method is-config="true" signature="Setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.mundijuegos.loginTest.LoginTests@3116c353]" started-at="2020-07-10T06:11:44Z" name="Setup" finished-at="2020-07-10T06:11:52Z" duration-ms="7368" status="PASS">
           <params>
             <param index="0">
               <value>
                 <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@55e42684]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="positiveLoginTest(java.lang.String, java.lang.String)[pri:1, instance:com.mundijuegos.loginTest.LoginTests@3116c353]" started-at="2020-07-10T06:11:52Z" name="positiveLoginTest" finished-at="2020-07-10T06:11:57Z" duration-ms="5623" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nicoroots]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Baator1985]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mundijuegos.loginTest.LoginTests@3116c353]" started-at="2020-07-10T06:11:57Z" name="tearDown" finished-at="2020-07-10T06:11:58Z" duration-ms="680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mundijuegos.loginTest.LoginTests -->
+    </test> <!-- PositiveTest - CHROME -->
+    <test started-at="2020-07-10T06:11:58Z" name="PositiveTest - FIREFOX" finished-at="2020-07-10T06:12:11Z" duration-ms="12428">
+      <class name="com.mundijuegos.loginTest.LoginTests">
+        <test-method is-config="true" signature="Setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.mundijuegos.loginTest.LoginTests@2fba3fc4]" started-at="2020-07-10T06:11:58Z" name="Setup" finished-at="2020-07-10T06:12:03Z" duration-ms="5136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@18d610e1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="positiveLoginTest(java.lang.String, java.lang.String)[pri:1, instance:com.mundijuegos.loginTest.LoginTests@2fba3fc4]" started-at="2020-07-10T06:12:03Z" name="positiveLoginTest" finished-at="2020-07-10T06:12:09Z" duration-ms="5262" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nicoroots]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Baator1985]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mundijuegos.loginTest.LoginTests@2fba3fc4]" started-at="2020-07-10T06:12:09Z" name="tearDown" finished-at="2020-07-10T06:12:11Z" duration-ms="2029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mundijuegos.loginTest.LoginTests -->
+    </test> <!-- PositiveTest - FIREFOX -->
+    <test started-at="2020-07-10T06:12:11Z" name="NegativeTests - CHROME" finished-at="2020-07-10T06:12:21Z" duration-ms="10632">
+      <class name="com.mundijuegos.loginTest.LoginTests">
+        <test-method is-config="true" signature="Setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.mundijuegos.loginTest.LoginTests@a37aefe]" started-at="2020-07-10T06:12:11Z" name="Setup" finished-at="2020-07-10T06:12:17Z" duration-ms="5943" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@528e5e38]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="negativeLoginTests(java.lang.String, java.lang.String)[pri:2, instance:com.mundijuegos.loginTest.LoginTests@a37aefe]" started-at="2020-07-10T06:12:17Z" name="negativeLoginTests" finished-at="2020-07-10T06:12:20Z" duration-ms="3558" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nicoroots]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[IncorrectPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLoginTests -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mundijuegos.loginTest.LoginTests@a37aefe]" started-at="2020-07-10T06:12:20Z" name="tearDown" finished-at="2020-07-10T06:12:21Z" duration-ms="1129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mundijuegos.loginTest.LoginTests -->
+    </test> <!-- NegativeTests - CHROME -->
+    <test started-at="2020-07-10T06:12:21Z" name="NegativeTests - FIREFOX" finished-at="2020-07-10T06:12:32Z" duration-ms="10621">
+      <class name="com.mundijuegos.loginTest.LoginTests">
+        <test-method is-config="true" signature="Setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.mundijuegos.loginTest.LoginTests@a82c5f1]" started-at="2020-07-10T06:12:21Z" name="Setup" finished-at="2020-07-10T06:12:26Z" duration-ms="5092" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@16391278]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="negativeLoginTests(java.lang.String, java.lang.String)[pri:2, instance:com.mundijuegos.loginTest.LoginTests@a82c5f1]" started-at="2020-07-10T06:12:26Z" name="negativeLoginTests" finished-at="2020-07-10T06:12:30Z" duration-ms="3914" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nicoroots]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[IncorrectPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLoginTests -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mundijuegos.loginTest.LoginTests@a82c5f1]" started-at="2020-07-10T06:12:30Z" name="tearDown" finished-at="2020-07-10T06:12:32Z" duration-ms="1614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mundijuegos.loginTest.LoginTests -->
+    </test> <!-- NegativeTests - FIREFOX -->
+  </suite> <!-- LoginTestSuite -->
+  <suite started-at="2020-07-10T06:14:07Z" name="RegisterTestSuite" finished-at="2020-07-10T06:14:32Z" duration-ms="24579">
+    <groups>
+    </groups>
+    <test started-at="2020-07-10T06:14:07Z" name="RegisterTest - CHROME" finished-at="2020-07-10T06:14:19Z" duration-ms="12218">
+      <class name="com.mundijuegos.registerTest.RegisterTest">
+        <test-method is-config="true" signature="Setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.mundijuegos.registerTest.RegisterTest@4f74980d]" started-at="2020-07-10T06:14:07Z" name="Setup" finished-at="2020-07-10T06:14:13Z" duration-ms="5654" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@621dc63d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="registerTest()[pri:1, instance:com.mundijuegos.registerTest.RegisterTest@4f74980d]" started-at="2020-07-10T06:14:13Z" name="registerTest" finished-at="2020-07-10T06:14:18Z" duration-ms="5666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mundijuegos.registerTest.RegisterTest@4f74980d]" started-at="2020-07-10T06:14:18Z" name="tearDown" finished-at="2020-07-10T06:14:19Z" duration-ms="897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mundijuegos.registerTest.RegisterTest -->
+    </test> <!-- RegisterTest - CHROME -->
+    <test started-at="2020-07-10T06:14:19Z" name="RegisterTest - FIREFOX" finished-at="2020-07-10T06:14:32Z" duration-ms="12355">
+      <class name="com.mundijuegos.registerTest.RegisterTest">
+        <test-method is-config="true" signature="Setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.mundijuegos.registerTest.RegisterTest@68f1b17f]" started-at="2020-07-10T06:14:19Z" name="Setup" finished-at="2020-07-10T06:14:24Z" duration-ms="4612" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4ae49387]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="registerTest()[pri:1, instance:com.mundijuegos.registerTest.RegisterTest@68f1b17f]" started-at="2020-07-10T06:14:24Z" name="registerTest" finished-at="2020-07-10T06:14:30Z" duration-ms="6001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mundijuegos.registerTest.RegisterTest@68f1b17f]" started-at="2020-07-10T06:14:30Z" name="tearDown" finished-at="2020-07-10T06:14:32Z" duration-ms="1741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mundijuegos.registerTest.RegisterTest -->
+    </test> <!-- RegisterTest - FIREFOX -->
+  </suite> <!-- RegisterTestSuite -->
+  <suite started-at="2020-07-10T06:13:32Z" name="LoginTestWithGoogleSuite" finished-at="2020-07-10T06:14:07Z" duration-ms="35093">
+    <groups>
+      <group name="positiveTests">
+        <method signature="LoginWithGoogleTests.positiveGoogleLoginTest(java.lang.String, java.lang.String)[pri:1, instance:com.mundijuegos.loginWithGoogle.LoginWithGoogleTests@389c4eb1]" name="positiveGoogleLoginTest" class="com.mundijuegos.loginWithGoogle.LoginWithGoogleTests"/>
+        <method signature="LoginWithGoogleTests.positiveGoogleLoginTest(java.lang.String, java.lang.String)[pri:1, instance:com.mundijuegos.loginWithGoogle.LoginWithGoogleTests@78a773fd]" name="positiveGoogleLoginTest" class="com.mundijuegos.loginWithGoogle.LoginWithGoogleTests"/>
+      </group> <!-- positiveTests -->
+    </groups>
+    <test started-at="2020-07-10T06:13:32Z" name="PositiveTest - CHROME" finished-at="2020-07-10T06:13:51Z" duration-ms="18880">
+      <class name="com.mundijuegos.loginWithGoogle.LoginWithGoogleTests">
+        <test-method is-config="true" signature="Setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.mundijuegos.loginWithGoogle.LoginWithGoogleTests@389c4eb1]" started-at="2020-07-10T06:13:32Z" name="Setup" finished-at="2020-07-10T06:13:38Z" duration-ms="5835" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6abb7b7d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="positiveGoogleLoginTest(java.lang.String, java.lang.String)[pri:1, instance:com.mundijuegos.loginWithGoogle.LoginWithGoogleTests@389c4eb1]" started-at="2020-07-10T06:13:38Z" name="positiveGoogleLoginTest" finished-at="2020-07-10T06:13:50Z" duration-ms="12371" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nicotangelo1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Baator1985]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveGoogleLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mundijuegos.loginWithGoogle.LoginWithGoogleTests@389c4eb1]" started-at="2020-07-10T06:13:50Z" name="tearDown" finished-at="2020-07-10T06:13:51Z" duration-ms="673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mundijuegos.loginWithGoogle.LoginWithGoogleTests -->
+    </test> <!-- PositiveTest - CHROME -->
+    <test started-at="2020-07-10T06:13:51Z" name="PositiveTest - FIREFOX" finished-at="2020-07-10T06:14:07Z" duration-ms="16207">
+      <class name="com.mundijuegos.loginWithGoogle.LoginWithGoogleTests">
+        <test-method is-config="true" signature="Setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.mundijuegos.loginWithGoogle.LoginWithGoogleTests@78a773fd]" started-at="2020-07-10T06:13:51Z" name="Setup" finished-at="2020-07-10T06:13:55Z" duration-ms="4584" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@34cf0e80]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="positiveGoogleLoginTest(java.lang.String, java.lang.String)[pri:1, instance:com.mundijuegos.loginWithGoogle.LoginWithGoogleTests@78a773fd]" started-at="2020-07-10T06:13:55Z" name="positiveGoogleLoginTest" finished-at="2020-07-10T06:14:05Z" duration-ms="9940" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nicotangelo1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Baator1985]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveGoogleLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mundijuegos.loginWithGoogle.LoginWithGoogleTests@78a773fd]" started-at="2020-07-10T06:14:05Z" name="tearDown" finished-at="2020-07-10T06:14:07Z" duration-ms="1681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mundijuegos.loginWithGoogle.LoginWithGoogleTests -->
+    </test> <!-- PositiveTest - FIREFOX -->
+  </suite> <!-- LoginTestWithGoogleSuite -->
+  <suite started-at="2020-07-10T06:12:32Z" name="LogoutTestSuite" finished-at="2020-07-10T06:13:01Z" duration-ms="28635">
+    <groups>
+    </groups>
+    <test started-at="2020-07-10T06:12:32Z" name="LogoutTest - CHROME" finished-at="2020-07-10T06:12:48Z" duration-ms="16122">
+      <class name="com.mundijuegos.logoutTest.LogoutTests">
+        <test-method is-config="true" signature="Setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.mundijuegos.logoutTest.LogoutTests@3b79fd76]" started-at="2020-07-10T06:12:32Z" name="Setup" finished-at="2020-07-10T06:12:38Z" duration-ms="5776" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@38ef1a0a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="logoutTest(java.lang.String, java.lang.String)[pri:1, instance:com.mundijuegos.logoutTest.LogoutTests@3b79fd76]" started-at="2020-07-10T06:12:38Z" name="logoutTest" finished-at="2020-07-10T06:12:47Z" duration-ms="9123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nicoroots]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Baator1985]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mundijuegos.logoutTest.LogoutTests@3b79fd76]" started-at="2020-07-10T06:12:47Z" name="tearDown" finished-at="2020-07-10T06:12:48Z" duration-ms="1222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mundijuegos.logoutTest.LogoutTests -->
+    </test> <!-- LogoutTest - CHROME -->
+    <test started-at="2020-07-10T06:12:48Z" name="LogoutTest - FIREFOX" finished-at="2020-07-10T06:13:01Z" duration-ms="12505">
+      <class name="com.mundijuegos.logoutTest.LogoutTests">
+        <test-method is-config="true" signature="Setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.mundijuegos.logoutTest.LogoutTests@544d57e]" started-at="2020-07-10T06:12:48Z" name="Setup" finished-at="2020-07-10T06:12:53Z" duration-ms="4598" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@56f9de3b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="logoutTest(java.lang.String, java.lang.String)[pri:1, instance:com.mundijuegos.logoutTest.LogoutTests@544d57e]" started-at="2020-07-10T06:12:53Z" name="logoutTest" finished-at="2020-07-10T06:12:59Z" duration-ms="6157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nicoroots]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Baator1985]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mundijuegos.logoutTest.LogoutTests@544d57e]" started-at="2020-07-10T06:12:59Z" name="tearDown" finished-at="2020-07-10T06:13:01Z" duration-ms="1749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mundijuegos.logoutTest.LogoutTests -->
+    </test> <!-- LogoutTest - FIREFOX -->
+  </suite> <!-- LogoutTestSuite -->
+  <suite started-at="2020-07-10T06:14:32Z" name="VideoBingoTestSuite" finished-at="2020-07-10T06:15:02Z" duration-ms="30042">
+    <groups>
+    </groups>
+    <test started-at="2020-07-10T06:14:32Z" name="VideoBingoTest - CHROME" finished-at="2020-07-10T06:14:47Z" duration-ms="15066">
+      <class name="com.mundijuegos.videoBingo.VideoBingoTest">
+        <test-method is-config="true" signature="Setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.mundijuegos.videoBingo.VideoBingoTest@2049a9c1]" started-at="2020-07-10T06:14:32Z" name="Setup" finished-at="2020-07-10T06:14:37Z" duration-ms="5466" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6728370a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="launchVideoBingo(java.lang.String, java.lang.String)[pri:1, instance:com.mundijuegos.videoBingo.VideoBingoTest@2049a9c1]" started-at="2020-07-10T06:14:37Z" name="launchVideoBingo" finished-at="2020-07-10T06:14:46Z" duration-ms="8876" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nicoroots]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Baator1985]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchVideoBingo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mundijuegos.videoBingo.VideoBingoTest@2049a9c1]" started-at="2020-07-10T06:14:46Z" name="tearDown" finished-at="2020-07-10T06:14:47Z" duration-ms="722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mundijuegos.videoBingo.VideoBingoTest -->
+    </test> <!-- VideoBingoTest - CHROME -->
+    <test started-at="2020-07-10T06:14:47Z" name="VideoBingoTest - FIREFOX" finished-at="2020-07-10T06:15:02Z" duration-ms="14969">
+      <class name="com.mundijuegos.videoBingo.VideoBingoTest">
+        <test-method is-config="true" signature="Setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.mundijuegos.videoBingo.VideoBingoTest@61eaec38]" started-at="2020-07-10T06:14:47Z" name="Setup" finished-at="2020-07-10T06:14:51Z" duration-ms="4570" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@2b5f8e61]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="launchVideoBingo(java.lang.String, java.lang.String)[pri:1, instance:com.mundijuegos.videoBingo.VideoBingoTest@61eaec38]" started-at="2020-07-10T06:14:51Z" name="launchVideoBingo" finished-at="2020-07-10T06:15:00Z" duration-ms="8467" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nicoroots]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Baator1985]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchVideoBingo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mundijuegos.videoBingo.VideoBingoTest@61eaec38]" started-at="2020-07-10T06:15:00Z" name="tearDown" finished-at="2020-07-10T06:15:02Z" duration-ms="1930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mundijuegos.videoBingo.VideoBingoTest -->
+    </test> <!-- VideoBingoTest - FIREFOX -->
+  </suite> <!-- VideoBingoTestSuite -->
+  <suite started-at="2020-07-10T06:13:01Z" name="LoginTestWithFacebookSuite" finished-at="2020-07-10T06:13:32Z" duration-ms="31350">
+    <groups>
+      <group name="positiveTests">
+        <method signature="LoginWithFacebookTest.positiveFacebookLoginTest(java.lang.String, java.lang.String)[pri:1, instance:com.mundijuegos.loginWithFacebook.LoginWithFacebookTest@52e7a6b2]" name="positiveFacebookLoginTest" class="com.mundijuegos.loginWithFacebook.LoginWithFacebookTest"/>
+        <method signature="LoginWithFacebookTest.positiveFacebookLoginTest(java.lang.String, java.lang.String)[pri:1, instance:com.mundijuegos.loginWithFacebook.LoginWithFacebookTest@6f6745d6]" name="positiveFacebookLoginTest" class="com.mundijuegos.loginWithFacebook.LoginWithFacebookTest"/>
+      </group> <!-- positiveTests -->
+    </groups>
+    <test started-at="2020-07-10T06:13:01Z" name="PositiveTest - CHROME" finished-at="2020-07-10T06:13:17Z" duration-ms="16917">
+      <class name="com.mundijuegos.loginWithFacebook.LoginWithFacebookTest">
+        <test-method is-config="true" signature="Setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.mundijuegos.loginWithFacebook.LoginWithFacebookTest@52e7a6b2]" started-at="2020-07-10T06:13:01Z" name="Setup" finished-at="2020-07-10T06:13:06Z" duration-ms="5365" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6ba0ee4a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="positiveFacebookLoginTest(java.lang.String, java.lang.String)[pri:1, instance:com.mundijuegos.loginWithFacebook.LoginWithFacebookTest@52e7a6b2]" started-at="2020-07-10T06:13:06Z" name="positiveFacebookLoginTest" finished-at="2020-07-10T06:13:17Z" duration-ms="10819" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nicotangelo1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Baator1985]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveFacebookLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mundijuegos.loginWithFacebook.LoginWithFacebookTest@52e7a6b2]" started-at="2020-07-10T06:13:17Z" name="tearDown" finished-at="2020-07-10T06:13:17Z" duration-ms="731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mundijuegos.loginWithFacebook.LoginWithFacebookTest -->
+    </test> <!-- PositiveTest - CHROME -->
+    <test started-at="2020-07-10T06:13:17Z" name="PositiveTest - FIREFOX" finished-at="2020-07-10T06:13:32Z" duration-ms="14413">
+      <class name="com.mundijuegos.loginWithFacebook.LoginWithFacebookTest">
+        <test-method is-config="true" signature="Setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.mundijuegos.loginWithFacebook.LoginWithFacebookTest@6f6745d6]" started-at="2020-07-10T06:13:17Z" name="Setup" finished-at="2020-07-10T06:13:23Z" duration-ms="5088" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
               </value>
             </param>
             <param index="1">
@@ -35,491 +559,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="positiveLoginTest(java.lang.String, java.lang.String)[pri:1, instance:com.mundijuegos.loginTest.LoginTests@3116c353]" started-at="2020-07-08T15:19:55Z" name="positiveLoginTest" finished-at="2020-07-08T15:20:00Z" duration-ms="4741" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Nicoroots]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Baator1985]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- positiveLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mundijuegos.loginTest.LoginTests@3116c353]" started-at="2020-07-08T15:20:00Z" name="tearDown" finished-at="2020-07-08T15:20:01Z" duration-ms="693" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.mundijuegos.loginTest.LoginTests -->
-    </test> <!-- PositiveTest - CHROME -->
-    <test started-at="2020-07-08T15:20:01Z" name="PositiveTest - FIREFOX" finished-at="2020-07-08T15:20:10Z" duration-ms="9107">
-      <class name="com.mundijuegos.loginTest.LoginTests">
-        <test-method is-config="true" signature="Setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.mundijuegos.loginTest.LoginTests@2fba3fc4]" started-at="2020-07-08T15:20:01Z" name="Setup" finished-at="2020-07-08T15:20:04Z" duration-ms="3555" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@55061418]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method signature="positiveLoginTest(java.lang.String, java.lang.String)[pri:1, instance:com.mundijuegos.loginTest.LoginTests@2fba3fc4]" started-at="2020-07-08T15:20:04Z" name="positiveLoginTest" finished-at="2020-07-08T15:20:09Z" duration-ms="4349" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Nicoroots]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Baator1985]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- positiveLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mundijuegos.loginTest.LoginTests@2fba3fc4]" started-at="2020-07-08T15:20:09Z" name="tearDown" finished-at="2020-07-08T15:20:10Z" duration-ms="1202" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.mundijuegos.loginTest.LoginTests -->
-    </test> <!-- PositiveTest - FIREFOX -->
-    <test started-at="2020-07-08T15:20:10Z" name="NegativeTests - CHROME" finished-at="2020-07-08T15:20:19Z" duration-ms="9375">
-      <class name="com.mundijuegos.loginTest.LoginTests">
-        <test-method is-config="true" signature="Setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.mundijuegos.loginTest.LoginTests@a37aefe]" started-at="2020-07-08T15:20:10Z" name="Setup" finished-at="2020-07-08T15:20:15Z" duration-ms="5272" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@27db45f]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method signature="negativeLoginTests(java.lang.String, java.lang.String)[pri:2, instance:com.mundijuegos.loginTest.LoginTests@a37aefe]" started-at="2020-07-08T15:20:15Z" name="negativeLoginTests" finished-at="2020-07-08T15:20:18Z" duration-ms="3108" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Nicoroots]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[IncorrectPassword]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- negativeLoginTests -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mundijuegos.loginTest.LoginTests@a37aefe]" started-at="2020-07-08T15:20:18Z" name="tearDown" finished-at="2020-07-08T15:20:19Z" duration-ms="993" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.mundijuegos.loginTest.LoginTests -->
-    </test> <!-- NegativeTests - CHROME -->
-    <test started-at="2020-07-08T15:20:19Z" name="NegativeTests - FIREFOX" finished-at="2020-07-08T15:20:27Z" duration-ms="7992">
-      <class name="com.mundijuegos.loginTest.LoginTests">
-        <test-method is-config="true" signature="Setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.mundijuegos.loginTest.LoginTests@a82c5f1]" started-at="2020-07-08T15:20:19Z" name="Setup" finished-at="2020-07-08T15:20:23Z" duration-ms="3544" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@6ec3d8e4]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method signature="negativeLoginTests(java.lang.String, java.lang.String)[pri:2, instance:com.mundijuegos.loginTest.LoginTests@a82c5f1]" started-at="2020-07-08T15:20:23Z" name="negativeLoginTests" finished-at="2020-07-08T15:20:26Z" duration-ms="3219" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Nicoroots]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[IncorrectPassword]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- negativeLoginTests -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mundijuegos.loginTest.LoginTests@a82c5f1]" started-at="2020-07-08T15:20:26Z" name="tearDown" finished-at="2020-07-08T15:20:27Z" duration-ms="1229" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.mundijuegos.loginTest.LoginTests -->
-    </test> <!-- NegativeTests - FIREFOX -->
-  </suite> <!-- LoginTestSuite -->
-  <suite started-at="2020-07-08T15:21:46Z" name="RegisterTestSuite" finished-at="2020-07-08T15:22:07Z" duration-ms="21388">
-    <groups>
-    </groups>
-    <test started-at="2020-07-08T15:21:46Z" name="RegisterTest - CHROME" finished-at="2020-07-08T15:21:56Z" duration-ms="10641">
-      <class name="com.mundijuegos.registerTest.RegisterTest">
-        <test-method is-config="true" signature="Setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.mundijuegos.registerTest.RegisterTest@4f74980d]" started-at="2020-07-08T15:21:46Z" name="Setup" finished-at="2020-07-08T15:21:51Z" duration-ms="5267" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@1aeff8ca]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method signature="registerTest()[pri:1, instance:com.mundijuegos.registerTest.RegisterTest@4f74980d]" started-at="2020-07-08T15:21:51Z" name="registerTest" finished-at="2020-07-08T15:21:56Z" duration-ms="4699" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registerTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mundijuegos.registerTest.RegisterTest@4f74980d]" started-at="2020-07-08T15:21:56Z" name="tearDown" finished-at="2020-07-08T15:21:56Z" duration-ms="674" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.mundijuegos.registerTest.RegisterTest -->
-    </test> <!-- RegisterTest - CHROME -->
-    <test started-at="2020-07-08T15:21:56Z" name="RegisterTest - FIREFOX" finished-at="2020-07-08T15:22:07Z" duration-ms="10743">
-      <class name="com.mundijuegos.registerTest.RegisterTest">
-        <test-method is-config="true" signature="Setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.mundijuegos.registerTest.RegisterTest@68f1b17f]" started-at="2020-07-08T15:21:56Z" name="Setup" finished-at="2020-07-08T15:22:02Z" duration-ms="5270" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@7f2c995b]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method signature="registerTest()[pri:1, instance:com.mundijuegos.registerTest.RegisterTest@68f1b17f]" started-at="2020-07-08T15:22:02Z" name="registerTest" finished-at="2020-07-08T15:22:07Z" duration-ms="4831" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registerTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mundijuegos.registerTest.RegisterTest@68f1b17f]" started-at="2020-07-08T15:22:07Z" name="tearDown" finished-at="2020-07-08T15:22:07Z" duration-ms="642" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.mundijuegos.registerTest.RegisterTest -->
-    </test> <!-- RegisterTest - FIREFOX -->
-  </suite> <!-- RegisterTestSuite -->
-  <suite started-at="2020-07-08T15:21:15Z" name="LoginTestWithGoogleSuite" finished-at="2020-07-08T15:21:46Z" duration-ms="30616">
-    <groups>
-      <group name="positiveTests">
-        <method signature="LoginWithGoogleTests.positiveGoogleLoginTest(java.lang.String, java.lang.String)[pri:1, instance:com.mundijuegos.loginWithGoogle.LoginWithGoogleTests@389c4eb1]" name="positiveGoogleLoginTest" class="com.mundijuegos.loginWithGoogle.LoginWithGoogleTests"/>
-        <method signature="LoginWithGoogleTests.positiveGoogleLoginTest(java.lang.String, java.lang.String)[pri:1, instance:com.mundijuegos.loginWithGoogle.LoginWithGoogleTests@78a773fd]" name="positiveGoogleLoginTest" class="com.mundijuegos.loginWithGoogle.LoginWithGoogleTests"/>
-      </group> <!-- positiveTests -->
-    </groups>
-    <test started-at="2020-07-08T15:21:15Z" name="PositiveTest - CHROME" finished-at="2020-07-08T15:21:32Z" duration-ms="16994">
-      <class name="com.mundijuegos.loginWithGoogle.LoginWithGoogleTests">
-        <test-method is-config="true" signature="Setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.mundijuegos.loginWithGoogle.LoginWithGoogleTests@389c4eb1]" started-at="2020-07-08T15:21:15Z" name="Setup" finished-at="2020-07-08T15:21:21Z" duration-ms="5299" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@101c15ad]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method signature="positiveGoogleLoginTest(java.lang.String, java.lang.String)[pri:1, instance:com.mundijuegos.loginWithGoogle.LoginWithGoogleTests@389c4eb1]" started-at="2020-07-08T15:21:21Z" name="positiveGoogleLoginTest" finished-at="2020-07-08T15:21:32Z" duration-ms="11036" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[nicotangelo1@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Baator1985]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- positiveGoogleLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mundijuegos.loginWithGoogle.LoginWithGoogleTests@389c4eb1]" started-at="2020-07-08T15:21:32Z" name="tearDown" finished-at="2020-07-08T15:21:32Z" duration-ms="658" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.mundijuegos.loginWithGoogle.LoginWithGoogleTests -->
-    </test> <!-- PositiveTest - CHROME -->
-    <test started-at="2020-07-08T15:21:32Z" name="PositiveTest - FIREFOX" finished-at="2020-07-08T15:21:46Z" duration-ms="13618">
-      <class name="com.mundijuegos.loginWithGoogle.LoginWithGoogleTests">
-        <test-method is-config="true" signature="Setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.mundijuegos.loginWithGoogle.LoginWithGoogleTests@78a773fd]" started-at="2020-07-08T15:21:32Z" name="Setup" finished-at="2020-07-08T15:21:36Z" duration-ms="3529" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@6068ebb2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method signature="positiveGoogleLoginTest(java.lang.String, java.lang.String)[pri:1, instance:com.mundijuegos.loginWithGoogle.LoginWithGoogleTests@78a773fd]" started-at="2020-07-08T15:21:36Z" name="positiveGoogleLoginTest" finished-at="2020-07-08T15:21:45Z" duration-ms="8887" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[nicotangelo1@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Baator1985]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- positiveGoogleLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mundijuegos.loginWithGoogle.LoginWithGoogleTests@78a773fd]" started-at="2020-07-08T15:21:45Z" name="tearDown" finished-at="2020-07-08T15:21:46Z" duration-ms="1201" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.mundijuegos.loginWithGoogle.LoginWithGoogleTests -->
-    </test> <!-- PositiveTest - FIREFOX -->
-  </suite> <!-- LoginTestWithGoogleSuite -->
-  <suite started-at="2020-07-08T15:20:27Z" name="LogoutTestSuite" finished-at="2020-07-08T15:20:48Z" duration-ms="20502">
-    <groups>
-    </groups>
-    <test started-at="2020-07-08T15:20:27Z" name="LogoutTest - CHROME" finished-at="2020-07-08T15:20:38Z" duration-ms="10494">
-      <class name="com.mundijuegos.logoutTest.LogoutTests">
-        <test-method is-config="true" signature="Setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.mundijuegos.logoutTest.LogoutTests@3b79fd76]" started-at="2020-07-08T15:20:27Z" name="Setup" finished-at="2020-07-08T15:20:32Z" duration-ms="5316" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@5a466dd]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method signature="logoutTest(java.lang.String, java.lang.String)[pri:1, instance:com.mundijuegos.logoutTest.LogoutTests@3b79fd76]" started-at="2020-07-08T15:20:32Z" name="logoutTest" finished-at="2020-07-08T15:20:37Z" duration-ms="4504" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Nicoroots]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Baator1985]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoutTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mundijuegos.logoutTest.LogoutTests@3b79fd76]" started-at="2020-07-08T15:20:37Z" name="tearDown" finished-at="2020-07-08T15:20:38Z" duration-ms="673" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.mundijuegos.logoutTest.LogoutTests -->
-    </test> <!-- LogoutTest - CHROME -->
-    <test started-at="2020-07-08T15:20:38Z" name="LogoutTest - FIREFOX" finished-at="2020-07-08T15:20:48Z" duration-ms="10004">
-      <class name="com.mundijuegos.logoutTest.LogoutTests">
-        <test-method is-config="true" signature="Setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.mundijuegos.logoutTest.LogoutTests@544d57e]" started-at="2020-07-08T15:20:38Z" name="Setup" finished-at="2020-07-08T15:20:41Z" duration-ms="3514" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@1ed9d173]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method signature="logoutTest(java.lang.String, java.lang.String)[pri:1, instance:com.mundijuegos.logoutTest.LogoutTests@544d57e]" started-at="2020-07-08T15:20:41Z" name="logoutTest" finished-at="2020-07-08T15:20:46Z" duration-ms="5254" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Nicoroots]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Baator1985]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoutTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mundijuegos.logoutTest.LogoutTests@544d57e]" started-at="2020-07-08T15:20:46Z" name="tearDown" finished-at="2020-07-08T15:20:48Z" duration-ms="1235" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.mundijuegos.logoutTest.LogoutTests -->
-    </test> <!-- LogoutTest - FIREFOX -->
-  </suite> <!-- LogoutTestSuite -->
-  <suite started-at="2020-07-08T15:22:07Z" name="VideoBingoTestSuite" finished-at="2020-07-08T15:22:43Z" duration-ms="36159">
-    <groups>
-    </groups>
-    <test started-at="2020-07-08T15:22:07Z" name="VideoBingoTest - CHROME" finished-at="2020-07-08T15:22:26Z" duration-ms="18435">
-      <class name="com.mundijuegos.videoBingo.VideoBingoTest">
-        <test-method is-config="true" signature="Setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.mundijuegos.videoBingo.VideoBingoTest@2049a9c1]" started-at="2020-07-08T15:22:07Z" name="Setup" finished-at="2020-07-08T15:22:13Z" duration-ms="5320" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@6e981e78]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method signature="launchVideoBingo(java.lang.String, java.lang.String)[pri:1, instance:com.mundijuegos.videoBingo.VideoBingoTest@2049a9c1]" started-at="2020-07-08T15:22:13Z" name="launchVideoBingo" finished-at="2020-07-08T15:22:25Z" duration-ms="12397" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Nicoroots]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Baator1985]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchVideoBingo -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mundijuegos.videoBingo.VideoBingoTest@2049a9c1]" started-at="2020-07-08T15:22:25Z" name="tearDown" finished-at="2020-07-08T15:22:26Z" duration-ms="718" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.mundijuegos.videoBingo.VideoBingoTest -->
-    </test> <!-- VideoBingoTest - CHROME -->
-    <test started-at="2020-07-08T15:22:26Z" name="VideoBingoTest - FIREFOX" finished-at="2020-07-08T15:22:43Z" duration-ms="17720">
-      <class name="com.mundijuegos.videoBingo.VideoBingoTest">
-        <test-method is-config="true" signature="Setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.mundijuegos.videoBingo.VideoBingoTest@61eaec38]" started-at="2020-07-08T15:22:26Z" name="Setup" finished-at="2020-07-08T15:22:29Z" duration-ms="3534" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@498a4d62]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method signature="launchVideoBingo(java.lang.String, java.lang.String)[pri:1, instance:com.mundijuegos.videoBingo.VideoBingoTest@61eaec38]" started-at="2020-07-08T15:22:29Z" name="launchVideoBingo" finished-at="2020-07-08T15:22:42Z" duration-ms="12744" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Nicoroots]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Baator1985]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchVideoBingo -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mundijuegos.videoBingo.VideoBingoTest@61eaec38]" started-at="2020-07-08T15:22:42Z" name="tearDown" finished-at="2020-07-08T15:22:43Z" duration-ms="1442" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.mundijuegos.videoBingo.VideoBingoTest -->
-    </test> <!-- VideoBingoTest - FIREFOX -->
-  </suite> <!-- VideoBingoTestSuite -->
-  <suite started-at="2020-07-08T15:20:48Z" name="LoginTestWithFacebookSuite" finished-at="2020-07-08T15:21:15Z" duration-ms="27566">
-    <groups>
-      <group name="positiveTests">
-        <method signature="LoginWithFacebookTest.positiveFacebookLoginTest(java.lang.String, java.lang.String)[pri:1, instance:com.mundijuegos.loginWithFacebook.LoginWithFacebookTest@52e7a6b2]" name="positiveFacebookLoginTest" class="com.mundijuegos.loginWithFacebook.LoginWithFacebookTest"/>
-        <method signature="LoginWithFacebookTest.positiveFacebookLoginTest(java.lang.String, java.lang.String)[pri:1, instance:com.mundijuegos.loginWithFacebook.LoginWithFacebookTest@6f6745d6]" name="positiveFacebookLoginTest" class="com.mundijuegos.loginWithFacebook.LoginWithFacebookTest"/>
-      </group> <!-- positiveTests -->
-    </groups>
-    <test started-at="2020-07-08T15:20:48Z" name="PositiveTest - CHROME" finished-at="2020-07-08T15:21:03Z" duration-ms="15505">
-      <class name="com.mundijuegos.loginWithFacebook.LoginWithFacebookTest">
-        <test-method is-config="true" signature="Setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.mundijuegos.loginWithFacebook.LoginWithFacebookTest@52e7a6b2]" started-at="2020-07-08T15:20:48Z" name="Setup" finished-at="2020-07-08T15:20:53Z" duration-ms="5267" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@6fbe4800]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method signature="positiveFacebookLoginTest(java.lang.String, java.lang.String)[pri:1, instance:com.mundijuegos.loginWithFacebook.LoginWithFacebookTest@52e7a6b2]" started-at="2020-07-08T15:20:53Z" name="positiveFacebookLoginTest" finished-at="2020-07-08T15:21:02Z" duration-ms="9550" status="PASS">
+        <test-method signature="positiveFacebookLoginTest(java.lang.String, java.lang.String)[pri:1, instance:com.mundijuegos.loginWithFacebook.LoginWithFacebookTest@6f6745d6]" started-at="2020-07-10T06:13:23Z" name="positiveFacebookLoginTest" finished-at="2020-07-10T06:13:30Z" duration-ms="7652" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -535,55 +575,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- positiveFacebookLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mundijuegos.loginWithFacebook.LoginWithFacebookTest@52e7a6b2]" started-at="2020-07-08T15:21:02Z" name="tearDown" finished-at="2020-07-08T15:21:03Z" duration-ms="688" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.mundijuegos.loginWithFacebook.LoginWithFacebookTest -->
-    </test> <!-- PositiveTest - CHROME -->
-    <test started-at="2020-07-08T15:21:03Z" name="PositiveTest - FIREFOX" finished-at="2020-07-08T15:21:15Z" duration-ms="12050">
-      <class name="com.mundijuegos.loginWithFacebook.LoginWithFacebookTest">
-        <test-method is-config="true" signature="Setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.mundijuegos.loginWithFacebook.LoginWithFacebookTest@6f6745d6]" started-at="2020-07-08T15:21:03Z" name="Setup" finished-at="2020-07-08T15:21:07Z" duration-ms="3508" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@3f3c5ecd]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method signature="positiveFacebookLoginTest(java.lang.String, java.lang.String)[pri:1, instance:com.mundijuegos.loginWithFacebook.LoginWithFacebookTest@6f6745d6]" started-at="2020-07-08T15:21:07Z" name="positiveFacebookLoginTest" finished-at="2020-07-08T15:21:14Z" duration-ms="7051" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[nicotangelo1@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Baator1985]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- positiveFacebookLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mundijuegos.loginWithFacebook.LoginWithFacebookTest@6f6745d6]" started-at="2020-07-08T15:21:14Z" name="tearDown" finished-at="2020-07-08T15:21:15Z" duration-ms="1490" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mundijuegos.loginWithFacebook.LoginWithFacebookTest@6f6745d6]" started-at="2020-07-10T06:13:30Z" name="tearDown" finished-at="2020-07-10T06:13:32Z" duration-ms="1672" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.mundijuegos.loginWithFacebook.LoginWithFacebookTest -->
     </test> <!-- PositiveTest - FIREFOX -->
-    <test started-at="2020-07-08T15:21:15Z" name="NegativeTests - CHROME" finished-at="2020-07-08T15:21:15Z" duration-ms="0">
+    <test started-at="2020-07-10T06:13:32Z" name="NegativeTests - CHROME" finished-at="2020-07-10T06:13:32Z" duration-ms="0">
     </test> <!-- NegativeTests - CHROME -->
-    <test started-at="2020-07-08T15:21:15Z" name="NegativeTests - FIREFOX" finished-at="2020-07-08T15:21:15Z" duration-ms="0">
+    <test started-at="2020-07-10T06:13:32Z" name="NegativeTests - FIREFOX" finished-at="2020-07-10T06:13:32Z" duration-ms="0">
     </test> <!-- NegativeTests - FIREFOX -->
   </suite> <!-- LoginTestWithFacebookSuite -->
 </testng-results>

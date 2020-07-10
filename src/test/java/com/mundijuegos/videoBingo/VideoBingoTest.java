@@ -19,7 +19,6 @@ public class VideoBingoTest extends TestUtilities {
 		// Login		
 		MundijuegosPageObject MundijuegosPage = this.login(username, password);
 		
-		sleep(5000);
 		// Click on Video Bingo link
 		VideoBingoPageObject VideoBingoPage = MundijuegosPage.clickVideoBingoLink();
 		

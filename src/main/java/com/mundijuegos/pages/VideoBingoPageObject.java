@@ -4,10 +4,10 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class VideoBingoPageObject extends BasePageObject {
+public class VideoBingoPageObject extends HeaderAndFooterPageObject {
 
 	// Locators
-	private By videoBingoButton = By.xpath("//a[@href='/play/video-bingo/']");
+	private By videoBingoButton = By.id("game-68-btn");
 	
 	// Constructor
 	public VideoBingoPageObject(WebDriver driver, Logger log) {

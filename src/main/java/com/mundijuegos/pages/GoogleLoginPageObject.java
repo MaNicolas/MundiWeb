@@ -8,8 +8,9 @@ public class GoogleLoginPageObject extends BasePageObject{
 
 	// Variables
 	private By emailLocator = By.id("identifierId");
+	private By nextLocator1 = By.id("identifierNext");
+	
 	private By passwordLocator = By.xpath("//input[@type='password']");
-	private By nextLocator1 = By.xpath("(//span[@class='RveJvd snByac'])[position()=1]");
 	private By nextLocator2 = By.xpath("//div[@id='passwordNext']");
 	
 	//Constructor

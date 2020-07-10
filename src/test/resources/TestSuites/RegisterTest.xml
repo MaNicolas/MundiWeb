@@ -3,12 +3,14 @@
 <suite name="RegisterTestSuite" verbose="1">
 
 	<test name="RegisterTest - CHROME">
+		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.mundijuegos.registerTest.RegisterTest" />
 		</classes>
 	</test>
-	
+
 	<test name="RegisterTest - FIREFOX">
+		<parameter name="browser" value="firefox" />
 		<classes>
 			<class name="com.mundijuegos.registerTest.RegisterTest" />
 		</classes>
