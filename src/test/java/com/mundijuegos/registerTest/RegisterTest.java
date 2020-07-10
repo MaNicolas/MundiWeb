@@ -27,7 +27,8 @@ public class RegisterTest extends TestUtilities {
 		MundijuegosPage.registerNewAccount(username, "RegisterTestPassword", email);
 		
 		// Explicit wait
-		MundijuegosPage.waitForAccountName();
+		//MundijuegosPage.waitForAccountName();
+		MundijuegosPage.waitForAccountNameInDom();
 
 		// Verifications:
 		// Check if account name is displayed

@@ -56,12 +56,12 @@ public class HeaderAndFooterPageObject extends BasePageObject {
 	
 	/** Wait for visibility of account name after login **/
 	public void waitForAccountName() {
-		try {
-			waitForVisibilityOf(accountName, 30);
-		} catch (TimeoutException exception) {
-			System.out.println("Exception catched: " + exception.getMessage());
-			sleep(3000);
-		}
+		waitForVisibilityOf(accountName, 30);
+	}
+	
+	/** Wait for account name to be present in DOM **/
+	public void waitForAccountNameInDom() {
+		waitForPresenceOfElement(accountName, 30);
 	}
 	
 	/** Verification if account name is displayed **/

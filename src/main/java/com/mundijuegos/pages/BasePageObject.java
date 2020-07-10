@@ -138,6 +138,20 @@ public class BasePageObject {
 		}
 	}
 	
+	/** Wait for given number of seconds for element with given locator to be present on the DOM **/
+	protected void waitForPresenceOfElement(By locator, Integer... timeOutInSeconds) {
+		int attempts = 0;
+		while (attempts < 2) {
+			try {
+				waitFor(ExpectedConditions.presenceOfElementLocated(locator),
+						(timeOutInSeconds.length > 0 ? timeOutInSeconds[0] : null));
+				break;
+			} catch (StaleElementReferenceException e) {
+			}
+			attempts++;
+		}
+	}
+	
 	/** Wait for Url to contain a certain string **/
 	protected void waitForUrlToContain(String url, int timeInSeconds) {
 		WebDriverWait wait = new WebDriverWait(driver, timeInSeconds);
