@@ -30,7 +30,6 @@ public class LogoutTests extends TestUtilities{
 		MundijuegosPage.waitForOverlayToDisappear();
 		MundijuegosPage.waitForAccountName();
 		
-		
 		// Logout
 		LogoutPageObject logoutPage = MundijuegosPage.logout();
 
