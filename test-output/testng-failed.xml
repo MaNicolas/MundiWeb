@@ -1,23 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [LoginTestWithFacebookSuite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="PositiveTest - FIREFOX(failed)">
+<suite name="Failed suite [LogoutTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="LogoutTest - CHROME(failed)">
     <parameter name="password" value="Baator1985"/>
-    <parameter name="browser" value="firefox"/>
-    <parameter name="username" value="nicotangelo1@gmail.com"/>
-    <groups>
-      <run>
-        <include name="positiveTests"/>
-      </run>
-    </groups>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="username" value="Nicoroots"/>
     <classes>
-      <class name="com.mundijuegos.loginWithFacebook.LoginWithFacebookTest">
+      <class name="com.mundijuegos.logoutTest.LogoutTests">
         <methods>
-          <include name="positiveFacebookLoginTest" invocation-numbers="0"/>
+          <include name="logoutTest" invocation-numbers="0"/>
           <include name="Setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.mundijuegos.loginWithFacebook.LoginWithFacebookTest -->
+      </class> <!-- com.mundijuegos.logoutTest.LogoutTests -->
     </classes>
-  </test> <!-- PositiveTest - FIREFOX(failed) -->
-</suite> <!-- Failed suite [LoginTestWithFacebookSuite] -->
+  </test> <!-- LogoutTest - CHROME(failed) -->
+  <test thread-count="5" name="LogoutTest - FIREFOX(failed)">
+    <parameter name="password" value="Baator1985"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="username" value="Nicoroots"/>
+    <classes>
+      <class name="com.mundijuegos.logoutTest.LogoutTests">
+        <methods>
+          <include name="logoutTest" invocation-numbers="0"/>
+          <include name="Setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mundijuegos.logoutTest.LogoutTests -->
+    </classes>
+  </test> <!-- LogoutTest - FIREFOX(failed) -->
+</suite> <!-- Failed suite [LogoutTestSuite] -->

@@ -15,4 +15,18 @@
       </class> <!-- com.mundijuegos.logoutTest.LogoutTests -->
     </classes>
   </test> <!-- LogoutTest - CHROME(failed) -->
+  <test thread-count="5" name="LogoutTest - FIREFOX(failed)">
+    <parameter name="password" value="Baator1985"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="username" value="Nicoroots"/>
+    <classes>
+      <class name="com.mundijuegos.logoutTest.LogoutTests">
+        <methods>
+          <include name="logoutTest" invocation-numbers="0"/>
+          <include name="Setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mundijuegos.logoutTest.LogoutTests -->
+    </classes>
+  </test> <!-- LogoutTest - FIREFOX(failed) -->
 </suite> <!-- Failed suite [LogoutTestSuite] -->
