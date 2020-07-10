@@ -7,8 +7,6 @@ public class LogoutPageObject extends HeaderAndFooterPageObject {
 
 	// Variables
 	private String pageUrl = "https://www.mundijuegos.com/register/logout2.php";
-
-	//Locators
 	
 	//Constructor
 	public LogoutPageObject(WebDriver driver, Logger log) {

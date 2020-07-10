@@ -13,7 +13,7 @@ public class HeaderAndFooterPageObject extends BasePageObject {
 	protected By signInButton = By.id("submitballoon-login");
 	protected By accountName = By.xpath("//a[@id='header-user-nom']");
 	protected By dropdownButton = By.id("header-user-dropdown");
-	protected By logoutButton = By.xpath("//a[@id='user_logout_btn']");
+	protected By logoutButton = By.id("user_logout_btn");
 	protected By loginWithFacebookButton = By.id("fb-signin-btn");
 	protected By loginWithGoogleButton = By.id("g-signin-btn");
 	protected By registerButton = By.id("header-register-button");
