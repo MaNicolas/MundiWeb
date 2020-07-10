@@ -3,6 +3,8 @@ package com.mundijuegos.pages;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HeaderAndFooterPageObject extends BasePageObject {
 	
@@ -23,6 +25,8 @@ public class HeaderAndFooterPageObject extends BasePageObject {
 	protected By registerSex = By.xpath("(//input[@id='radioavv'])[position()=2]");
 	protected By registerSubmit = By.id("submitregister");
 	protected By acceptConditions = By.id("termsofuse");
+	
+	protected By overlayBackGround = By.id("overlay-background");
 
 	// Constructor
 	public HeaderAndFooterPageObject(WebDriver driver, Logger log) {
@@ -61,6 +65,12 @@ public class HeaderAndFooterPageObject extends BasePageObject {
 	/** Wait for account name to be present in DOM **/
 	public void waitForAccountNameInDom() {
 		waitForPresenceOfElement(accountName, 30);
+	}
+	
+	/** Wait for overlay BackGround to disappear **/
+	public void waitForOverlayToDisappear(){
+		WebDriverWait wait = new WebDriverWait(driver, 10);
+		wait.until(ExpectedConditions.invisibilityOfElementLocated(overlayBackGround));
 	}
 	
 	/** Verification if account name is displayed **/

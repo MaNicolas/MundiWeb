@@ -25,9 +25,12 @@ public class LogoutTests extends TestUtilities{
 
 		// Enter username, password and click Sign in
 		MundijuegosPage.successfullLogin(username, password);
+		
+		sleep(20000);
 
 		// Explicit wait
-		MundijuegosPage.waitForAccountName();
+		//MundijuegosPage.waitForAccountName();
+		MundijuegosPage.waitForOverlayToDisappear();
 		
 		// Logout
 		LogoutPageObject logoutPage = MundijuegosPage.logout();
