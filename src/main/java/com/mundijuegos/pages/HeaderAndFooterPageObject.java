@@ -11,7 +11,7 @@ public class HeaderAndFooterPageObject extends BasePageObject {
 	protected By usernameLocator = By.id("userballoon-login");
 	protected By passwordLocator = By.id("passwordballoon-login");
 	protected By signInButton = By.id("submitballoon-login");
-	protected By accountName = By.xpath("//a[@id='header-user-nom']");
+	protected By accountName = By.id("header-user-nom");
 	protected By dropdownButton = By.id("header-user-dropdown");
 	protected By logoutButton = By.id("user_logout_btn");
 	protected By loginWithFacebookButton = By.id("fb-signin-btn");

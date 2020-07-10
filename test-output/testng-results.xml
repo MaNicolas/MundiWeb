@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="6" total="8" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-07-10T07:11:45Z" name="LogoutTestSuite" finished-at="2020-07-10T07:12:08Z" duration-ms="22435">
+  <suite started-at="2020-07-10T07:26:01Z" name="LoginTestWithFacebookSuite" finished-at="2020-07-10T07:26:29Z" duration-ms="28298">
     <groups>
+      <group name="positiveTests">
+        <method signature="LoginWithFacebookTest.positiveFacebookLoginTest(java.lang.String, java.lang.String)[pri:1, instance:com.mundijuegos.loginWithFacebook.LoginWithFacebookTest@6a57ae10]" name="positiveFacebookLoginTest" class="com.mundijuegos.loginWithFacebook.LoginWithFacebookTest"/>
+        <method signature="LoginWithFacebookTest.positiveFacebookLoginTest(java.lang.String, java.lang.String)[pri:1, instance:com.mundijuegos.loginWithFacebook.LoginWithFacebookTest@4b34fff9]" name="positiveFacebookLoginTest" class="com.mundijuegos.loginWithFacebook.LoginWithFacebookTest"/>
+      </group> <!-- positiveTests -->
     </groups>
-    <test started-at="2020-07-10T07:11:45Z" name="LogoutTest - CHROME" finished-at="2020-07-10T07:11:57Z" duration-ms="11497">
-      <class name="com.mundijuegos.logoutTest.LogoutTests">
-        <test-method is-config="true" signature="Setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.mundijuegos.logoutTest.LogoutTests@4bf48f6]" started-at="2020-07-10T07:11:45Z" name="Setup" finished-at="2020-07-10T07:11:52Z" duration-ms="6250" status="PASS">
+    <test started-at="2020-07-10T07:26:01Z" name="PositiveTest - CHROME" finished-at="2020-07-10T07:26:17Z" duration-ms="16289">
+      <class name="com.mundijuegos.loginWithFacebook.LoginWithFacebookTest">
+        <test-method is-config="true" signature="Setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.mundijuegos.loginWithFacebook.LoginWithFacebookTest@6a57ae10]" started-at="2020-07-10T07:26:01Z" name="Setup" finished-at="2020-07-10T07:26:07Z" duration-ms="6306" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -16,18 +20,18 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@f951a7f]]>
+                <![CDATA[org.testng.TestRunner@277bf091]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="logoutTest(java.lang.String, java.lang.String)[pri:1, instance:com.mundijuegos.logoutTest.LogoutTests@4bf48f6]" started-at="2020-07-10T07:11:52Z" name="logoutTest" finished-at="2020-07-10T07:11:56Z" duration-ms="4544" status="PASS">
+        <test-method signature="positiveFacebookLoginTest(java.lang.String, java.lang.String)[pri:1, instance:com.mundijuegos.loginWithFacebook.LoginWithFacebookTest@6a57ae10]" started-at="2020-07-10T07:26:07Z" name="positiveFacebookLoginTest" finished-at="2020-07-10T07:26:16Z" duration-ms="9268" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Nicoroots]]>
+                <![CDATA[nicotangelo1@gmail.com]]>
               </value>
             </param>
             <param index="1">
@@ -38,16 +42,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logoutTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mundijuegos.logoutTest.LogoutTests@4bf48f6]" started-at="2020-07-10T07:11:56Z" name="tearDown" finished-at="2020-07-10T07:11:57Z" duration-ms="677" status="PASS">
+        </test-method> <!-- positiveFacebookLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mundijuegos.loginWithFacebook.LoginWithFacebookTest@6a57ae10]" started-at="2020-07-10T07:26:16Z" name="tearDown" finished-at="2020-07-10T07:26:17Z" duration-ms="686" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.mundijuegos.logoutTest.LogoutTests -->
-    </test> <!-- LogoutTest - CHROME -->
-    <test started-at="2020-07-10T07:11:57Z" name="LogoutTest - FIREFOX" finished-at="2020-07-10T07:12:08Z" duration-ms="10906">
-      <class name="com.mundijuegos.logoutTest.LogoutTests">
-        <test-method is-config="true" signature="Setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.mundijuegos.logoutTest.LogoutTests@1e81f160]" started-at="2020-07-10T07:11:57Z" name="Setup" finished-at="2020-07-10T07:12:00Z" duration-ms="3534" status="PASS">
+      </class> <!-- com.mundijuegos.loginWithFacebook.LoginWithFacebookTest -->
+    </test> <!-- PositiveTest - CHROME -->
+    <test started-at="2020-07-10T07:26:17Z" name="PositiveTest - FIREFOX" finished-at="2020-07-10T07:26:29Z" duration-ms="11963">
+      <class name="com.mundijuegos.loginWithFacebook.LoginWithFacebookTest">
+        <test-method is-config="true" signature="Setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.mundijuegos.loginWithFacebook.LoginWithFacebookTest@4b34fff9]" started-at="2020-07-10T07:26:17Z" name="Setup" finished-at="2020-07-10T07:26:21Z" duration-ms="3566" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -56,18 +60,18 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@20cece0b]]>
+                <![CDATA[org.testng.TestRunner@fab35b1]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="logoutTest(java.lang.String, java.lang.String)[pri:1, instance:com.mundijuegos.logoutTest.LogoutTests@1e81f160]" started-at="2020-07-10T07:12:00Z" name="logoutTest" finished-at="2020-07-10T07:12:06Z" duration-ms="6125" status="PASS">
+        <test-method signature="positiveFacebookLoginTest(java.lang.String, java.lang.String)[pri:1, instance:com.mundijuegos.loginWithFacebook.LoginWithFacebookTest@4b34fff9]" started-at="2020-07-10T07:26:21Z" name="positiveFacebookLoginTest" finished-at="2020-07-10T07:26:28Z" duration-ms="7089" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Nicoroots]]>
+                <![CDATA[nicotangelo1@gmail.com]]>
               </value>
             </param>
             <param index="1">
@@ -78,12 +82,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logoutTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mundijuegos.logoutTest.LogoutTests@1e81f160]" started-at="2020-07-10T07:12:06Z" name="tearDown" finished-at="2020-07-10T07:12:08Z" duration-ms="1245" status="PASS">
+        </test-method> <!-- positiveFacebookLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mundijuegos.loginWithFacebook.LoginWithFacebookTest@4b34fff9]" started-at="2020-07-10T07:26:28Z" name="tearDown" finished-at="2020-07-10T07:26:29Z" duration-ms="1305" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.mundijuegos.logoutTest.LogoutTests -->
-    </test> <!-- LogoutTest - FIREFOX -->
-  </suite> <!-- LogoutTestSuite -->
+      </class> <!-- com.mundijuegos.loginWithFacebook.LoginWithFacebookTest -->
+    </test> <!-- PositiveTest - FIREFOX -->
+    <test started-at="2020-07-10T07:26:29Z" name="NegativeTests - CHROME" finished-at="2020-07-10T07:26:29Z" duration-ms="1">
+    </test> <!-- NegativeTests - CHROME -->
+    <test started-at="2020-07-10T07:26:29Z" name="NegativeTests - FIREFOX" finished-at="2020-07-10T07:26:29Z" duration-ms="0">
+    </test> <!-- NegativeTests - FIREFOX -->
+  </suite> <!-- LoginTestWithFacebookSuite -->
 </testng-results>
