@@ -2,7 +2,6 @@ package com.mundijuegos.pages;
 
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
-import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 
 public class HeaderAndFooterPageObject extends BasePageObject {
@@ -77,6 +76,7 @@ public class HeaderAndFooterPageObject extends BasePageObject {
 	/** Log out **/
 	public LogoutPageObject logout() {
 		click(dropdownButton);
+		sleep(3000);
 		click(logoutButton);
 		return new LogoutPageObject(driver, log);
 	}
