@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-07-10T14:14:01Z" name="LogoutTestSuite" finished-at="2020-07-10T14:14:23Z" duration-ms="21844">
+  <suite started-at="2020-07-10T15:15:06Z" name="RegisterTestSuite" finished-at="2020-07-10T15:15:27Z" duration-ms="20974">
     <groups>
     </groups>
-    <test started-at="2020-07-10T14:14:01Z" name="LogoutTest - CHROME" finished-at="2020-07-10T14:14:12Z" duration-ms="11366">
-      <class name="com.mundijuegos.logoutTest.LogoutTests">
-        <test-method is-config="true" signature="Setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.mundijuegos.logoutTest.LogoutTests@4bf48f6]" started-at="2020-07-10T14:14:01Z" name="Setup" finished-at="2020-07-10T14:14:07Z" duration-ms="6240" status="PASS">
+    <test started-at="2020-07-10T15:15:06Z" name="RegisterTest - CHROME" finished-at="2020-07-10T15:15:17Z" duration-ms="11819">
+      <class name="com.mundijuegos.registerTest.RegisterTest">
+        <test-method is-config="true" signature="Setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.mundijuegos.registerTest.RegisterTest@4bf48f6]" started-at="2020-07-10T15:15:06Z" name="Setup" finished-at="2020-07-10T15:15:12Z" duration-ms="6295" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -16,38 +16,26 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@42373389]]>
+                <![CDATA[org.testng.TestRunner@3c87e6b7]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="logoutTest(java.lang.String, java.lang.String)[pri:1, instance:com.mundijuegos.logoutTest.LogoutTests@4bf48f6]" started-at="2020-07-10T14:14:07Z" name="logoutTest" finished-at="2020-07-10T14:14:12Z" duration-ms="4444" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Nicoroots]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Baator1985]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="registerTest()[pri:1, instance:com.mundijuegos.registerTest.RegisterTest@4bf48f6]" started-at="2020-07-10T15:15:12Z" name="registerTest" finished-at="2020-07-10T15:15:17Z" duration-ms="4847" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logoutTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mundijuegos.logoutTest.LogoutTests@4bf48f6]" started-at="2020-07-10T14:14:12Z" name="tearDown" finished-at="2020-07-10T14:14:12Z" duration-ms="655" status="PASS">
+        </test-method> <!-- registerTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mundijuegos.registerTest.RegisterTest@4bf48f6]" started-at="2020-07-10T15:15:17Z" name="tearDown" finished-at="2020-07-10T15:15:17Z" duration-ms="652" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.mundijuegos.logoutTest.LogoutTests -->
-    </test> <!-- LogoutTest - CHROME -->
-    <test started-at="2020-07-10T14:14:12Z" name="LogoutTest - FIREFOX" finished-at="2020-07-10T14:14:23Z" duration-ms="10445">
-      <class name="com.mundijuegos.logoutTest.LogoutTests">
-        <test-method is-config="true" signature="Setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.mundijuegos.logoutTest.LogoutTests@1e81f160]" started-at="2020-07-10T14:14:12Z" name="Setup" finished-at="2020-07-10T14:14:16Z" duration-ms="3544" status="PASS">
+      </class> <!-- com.mundijuegos.registerTest.RegisterTest -->
+    </test> <!-- RegisterTest - CHROME -->
+    <test started-at="2020-07-10T15:15:17Z" name="RegisterTest - FIREFOX" finished-at="2020-07-10T15:15:27Z" duration-ms="9122">
+      <class name="com.mundijuegos.registerTest.RegisterTest">
+        <test-method is-config="true" signature="Setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.mundijuegos.registerTest.RegisterTest@1e81f160]" started-at="2020-07-10T15:15:17Z" name="Setup" finished-at="2020-07-10T15:15:21Z" duration-ms="3556" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -56,34 +44,22 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@9b21bd3]]>
+                <![CDATA[org.testng.TestRunner@77bbadc]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="logoutTest(java.lang.String, java.lang.String)[pri:1, instance:com.mundijuegos.logoutTest.LogoutTests@1e81f160]" started-at="2020-07-10T14:14:16Z" name="logoutTest" finished-at="2020-07-10T14:14:21Z" duration-ms="5436" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Nicoroots]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Baator1985]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="registerTest()[pri:1, instance:com.mundijuegos.registerTest.RegisterTest@1e81f160]" started-at="2020-07-10T15:15:21Z" name="registerTest" finished-at="2020-07-10T15:15:25Z" duration-ms="4363" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logoutTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mundijuegos.logoutTest.LogoutTests@1e81f160]" started-at="2020-07-10T14:14:21Z" name="tearDown" finished-at="2020-07-10T14:14:23Z" duration-ms="1462" status="PASS">
+        </test-method> <!-- registerTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mundijuegos.registerTest.RegisterTest@1e81f160]" started-at="2020-07-10T15:15:25Z" name="tearDown" finished-at="2020-07-10T15:15:27Z" duration-ms="1201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.mundijuegos.logoutTest.LogoutTests -->
-    </test> <!-- LogoutTest - FIREFOX -->
-  </suite> <!-- LogoutTestSuite -->
+      </class> <!-- com.mundijuegos.registerTest.RegisterTest -->
+    </test> <!-- RegisterTest - FIREFOX -->
+  </suite> <!-- RegisterTestSuite -->
 </testng-results>

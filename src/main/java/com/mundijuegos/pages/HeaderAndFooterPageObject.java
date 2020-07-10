@@ -4,9 +4,6 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.Sleeper;
-
-import com.mundijuegos.base.TestUtilities;
 
 public class HeaderAndFooterPageObject extends BasePageObject {
 	
@@ -59,7 +56,12 @@ public class HeaderAndFooterPageObject extends BasePageObject {
 	
 	/** Wait for visibility of account name after login **/
 	public void waitForAccountName() {
-		waitForVisibilityOf(accountName, 30);
+		try {
+			waitForVisibilityOf(accountName, 30);
+		} catch (TimeoutException exception) {
+			System.out.println("Exception catched: " + exception.getMessage());
+			sleep(3000);
+		}
 	}
 	
 	/** Verification if account name is displayed **/

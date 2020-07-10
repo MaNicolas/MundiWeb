@@ -97,11 +97,21 @@ public class BasePageObject {
 		driver.switchTo().frame(find(frameLocator));
 	}
 	
+	/** Check all checkbox **/
 	public void clickAllCheckboxes(By locator) {
 		log.info("Executing click on " + locator.toString());
 		WebElement checkbox = find(locator);
 			if (!checkbox.isSelected())
 				checkbox.click();
+	}
+	
+	/** Sleep **/
+	protected void sleep(long m) {
+		try {
+			Thread.sleep(m);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 	}
 
 	///////////////////////////////////////////////////////////////////////////////////////

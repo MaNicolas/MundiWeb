@@ -2,6 +2,7 @@ package com.mundijuegos.pages;
 
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.ElementClickInterceptedException;
 import org.openqa.selenium.WebDriver;
 
 public class MundijuegosPageObject extends HeaderAndFooterPageObject {
@@ -28,7 +29,12 @@ public class MundijuegosPageObject extends HeaderAndFooterPageObject {
 	/** Click on Video Bingo link **/
 	public VideoBingoPageObject clickVideoBingoLink() {
 		log.info("Click on Video Bingo link");
-		click(videoBingoLocator);
+		try {
+			click(videoBingoLocator);
+		} catch (ElementClickInterceptedException exception) {
+			System.out.println(exception.getMessage());
+			sleep(3000);
+		}
 		return new VideoBingoPageObject(driver, log);
 	}
 }
