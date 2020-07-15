@@ -38,7 +38,5 @@ public class LogoutTests extends TestUtilities{
 		String expectedUrl = logoutPage.getExpectedUrl();
 		String actualUrl = logoutPage.getCurrentUrl();
 		Assert.assertEquals(actualUrl, expectedUrl, "Logout has failed");
-		
-		//TEST
 	}
 }
