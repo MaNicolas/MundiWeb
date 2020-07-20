@@ -19,7 +19,6 @@ public class GoogleLoginPageObject extends BasePageObject{
 	}
 
 	//Methods
-	
 	public MundijuegosPageObject successfullLogin(String emailAddress, String password) {
 		type(emailAddress, emailLocator);
 		click(nextLocator1);

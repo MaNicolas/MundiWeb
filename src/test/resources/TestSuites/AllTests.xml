@@ -6,7 +6,7 @@
 		<suite-file path="LoginTests.xml"></suite-file>
 		<suite-file path="LogoutTest.xml"></suite-file>
 		<suite-file path="LoginWithFacebook.xml"></suite-file>
-		<suite-file path="LoginWithGoogleTest.xml"></suite-file>
+		<!-- <suite-file path="LoginWithGoogleTest.xml"></suite-file> -->
 		<suite-file path="RegisterTest.xml"></suite-file>
 		<suite-file path="VideoBingoTest.xml"></suite-file>
 	</suite-files>

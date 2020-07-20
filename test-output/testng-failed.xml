@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [RegisterTestSuite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="RegisterTest - CHROME(failed)">
+<suite name="Failed suite [VideoBingoTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="VideoBingoTest - CHROME(failed)">
+    <parameter name="password" value="Baator1985"/>
     <parameter name="browser" value="chrome"/>
+    <parameter name="username" value="Nicoroots"/>
     <classes>
-      <class name="com.mundijuegos.registerTest.RegisterTest">
+      <class name="com.mundijuegos.videoBingo.VideoBingoTest">
         <methods>
-          <include name="registerTest"/>
+          <include name="launchVideoBingo" invocation-numbers="0"/>
           <include name="Setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.mundijuegos.registerTest.RegisterTest -->
+      </class> <!-- com.mundijuegos.videoBingo.VideoBingoTest -->
     </classes>
-  </test> <!-- RegisterTest - CHROME(failed) -->
-</suite> <!-- Failed suite [RegisterTestSuite] -->
+  </test> <!-- VideoBingoTest - CHROME(failed) -->
+</suite> <!-- Failed suite [VideoBingoTestSuite] -->
