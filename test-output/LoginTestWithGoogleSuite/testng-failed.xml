@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [LoginTestWithGoogleSuite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="PositiveTest - CHROME(failed)">
+  <test thread-count="5" name="PositiveTest - Google - CHROME(failed)">
     <parameter name="password" value="Baator1985"/>
     <parameter name="browser" value="chrome"/>
     <parameter name="username" value="nicotangelo1@gmail.com"/>
@@ -19,8 +19,8 @@
         </methods>
       </class> <!-- com.mundijuegos.loginWithGoogle.LoginWithGoogleTests -->
     </classes>
-  </test> <!-- PositiveTest - CHROME(failed) -->
-  <test thread-count="5" name="PositiveTest - FIREFOX(failed)">
+  </test> <!-- PositiveTest - Google - CHROME(failed) -->
+  <test thread-count="5" name="PositiveTest - Google - FIREFOX(failed)">
     <parameter name="password" value="Baator1985"/>
     <parameter name="browser" value="firefox"/>
     <parameter name="username" value="nicotangelo1@gmail.com"/>
@@ -38,5 +38,5 @@
         </methods>
       </class> <!-- com.mundijuegos.loginWithGoogle.LoginWithGoogleTests -->
     </classes>
-  </test> <!-- PositiveTest - FIREFOX(failed) -->
+  </test> <!-- PositiveTest - Google - FIREFOX(failed) -->
 </suite> <!-- Failed suite [LoginTestWithGoogleSuite] -->

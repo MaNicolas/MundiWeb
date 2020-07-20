@@ -28,7 +28,7 @@ public class RegisterTest extends TestUtilities {
 		
 		// Explicit wait
 		//MundijuegosPage.waitForAccountName();
-		MundijuegosPage.waitForOverlayToDisappear();
+		MundijuegosPage.switchToWindowWithTitle("Mundijuegos");
 		MundijuegosPage.waitForAccountName();
 
 		// Verifications:
