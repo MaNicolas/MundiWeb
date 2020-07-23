@@ -1,23 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [LoginTestWithFacebookSuite]" guice-stage="DEVELOPMENT" verbose="0">
-  <test thread-count="5" name="PositiveTest - FIREFOX(failed)" verbose="0">
-    <parameter name="password" value="Baator1985"/>
-    <parameter name="browser" value="firefox"/>
-    <parameter name="username" value="nicotangelo1@gmail.com"/>
-    <groups>
-      <run>
-        <include name="positiveTests"/>
-      </run>
-    </groups>
+<suite name="Failed suite [RegisterTestSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="RegisterTest - CHROME(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.mundijuegos.loginWithFacebook.LoginWithFacebookTest">
+      <class name="com.mundijuegos.registerTest.RegisterTest">
         <methods>
-          <include name="positiveFacebookLoginTest" invocation-numbers="0"/>
+          <include name="registerTest"/>
           <include name="Setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.mundijuegos.loginWithFacebook.LoginWithFacebookTest -->
+      </class> <!-- com.mundijuegos.registerTest.RegisterTest -->
     </classes>
-  </test> <!-- PositiveTest - FIREFOX(failed) -->
-</suite> <!-- Failed suite [LoginTestWithFacebookSuite] -->
+  </test> <!-- RegisterTest - CHROME(failed) -->
+</suite> <!-- Failed suite [RegisterTestSuite] -->
