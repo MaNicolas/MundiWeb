@@ -8,7 +8,7 @@
     <classes>
       <class name="com.mundijuegos.videoBingo.VideoBingoTest">
         <methods>
-          <include name="launchVideoBingo" invocation-numbers="0"/>
+          <include name="launchVideoBingo"/>
           <include name="Setup"/>
           <include name="tearDown"/>
         </methods>

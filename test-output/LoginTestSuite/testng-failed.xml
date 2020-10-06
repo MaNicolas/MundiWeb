@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="4" parallel="tests" name="Failed suite [LoginTestSuite]" guice-stage="DEVELOPMENT">
-  <test thread-count="4" parallel="tests" name="PositiveTest - FIREFOX(failed)">
+<suite name="Failed suite [LoginTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="PositiveTest - CHROME(failed)">
     <parameter name="password" value="Baator1985"/>
-    <parameter name="browser" value="firefox"/>
+    <parameter name="browser" value="chrome"/>
     <parameter name="username" value="Nicoroots"/>
     <groups>
       <run>
@@ -11,13 +11,32 @@
       </run>
     </groups>
     <classes>
-      <class name="com.mundijuegos.loginPageTest.LoginTests">
+      <class name="com.mundijuegos.loginTest.LoginTests">
         <methods>
           <include name="positiveLoginTest"/>
           <include name="Setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.mundijuegos.loginPageTest.LoginTests -->
+      </class> <!-- com.mundijuegos.loginTest.LoginTests -->
     </classes>
-  </test> <!-- PositiveTest - FIREFOX(failed) -->
+  </test> <!-- PositiveTest - CHROME(failed) -->
+  <test thread-count="5" name="NegativeTests - CHROME(failed)">
+    <parameter name="password" value="IncorrectPassword"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="username" value="Nicoroots"/>
+    <groups>
+      <run>
+        <include name="negativeTests"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.mundijuegos.loginTest.LoginTests">
+        <methods>
+          <include name="negativeLoginTests"/>
+          <include name="Setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mundijuegos.loginTest.LoginTests -->
+    </classes>
+  </test> <!-- NegativeTests - CHROME(failed) -->
 </suite> <!-- Failed suite [LoginTestSuite] -->
