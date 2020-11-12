@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">6 suites, 1 failed test</span>
+      <span class="top-banner-font-1">6 suites</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -132,7 +132,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-RegisterTestSuite" class="navigator-link">
-              <span class="suite-name border-failed">RegisterTestSuite</span>
+              <span class="suite-name border-passed">RegisterTestSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -185,21 +185,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-RegisterTestSuite" class="hide-methods failed suite-RegisterTestSuite"> (hide)</a> <!-- hide-methods failed suite-RegisterTestSuite -->
-                      <a href="#" panel-name="suite-RegisterTestSuite" class="show-methods failed suite-RegisterTestSuite"> (show)</a> <!-- show-methods failed suite-RegisterTestSuite -->
-                    </span>
-                    <div class="method-list-content failed suite-RegisterTestSuite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-RegisterTestSuite" title="com.mundijuegos.registerTest.RegisterTest" class="method navigator-link" hash-for-method="registerTest">registerTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-RegisterTestSuite -->
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -208,6 +194,11 @@
                       <a href="#" panel-name="suite-RegisterTestSuite" class="show-methods passed suite-RegisterTestSuite"> (show)</a> <!-- show-methods passed suite-RegisterTestSuite -->
                     </span>
                     <div class="method-list-content passed suite-RegisterTestSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegisterTestSuite" title="com.mundijuegos.registerTest.RegisterTest" class="method navigator-link" hash-for-method="registerTest">registerTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-RegisterTestSuite" title="com.mundijuegos.registerTest.RegisterTest" class="method navigator-link" hash-for-method="registerTest">registerTest</a> <!-- method navigator-link -->
@@ -521,9 +512,9 @@
           </div> <!-- suite-LoginTestSuite-class-passed -->
         </div> <!-- panel LoginTestSuite -->
         <div panel-name="suite-RegisterTestSuite" class="panel RegisterTestSuite">
-          <div class="suite-RegisterTestSuite-class-failed">
+          <div class="suite-RegisterTestSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">com.mundijuegos.registerTest.RegisterTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -532,48 +523,8 @@
                   <a name="registerTest">
                   </a> <!-- registerTest -->
                   <span class="method-name">registerTest</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: header-user-nom (tried for 30 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at com.mundijuegos.pages.BasePageObject.waitFor(BasePageObject.java:124)
-	at com.mundijuegos.pages.BasePageObject.waitForVisibilityOf(BasePageObject.java:132)
-	at com.mundijuegos.pages.HeaderAndFooterPageObject.waitForAccountName(HeaderAndFooterPageObject.java:62)
-	at com.mundijuegos.registerTest.RegisterTest.registerTest(RegisterTest.java:32)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#header\-user\-nom&quot;}
-  (Session info: chrome=84.0.4147.89)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-G6VBFF2&apos;, ip: &apos;192.168.10.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\LIDIA~1.PER\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:57047}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 6ce86f04ab34c8d217628feae8941bb7
-*** Element info: {Using=id, value=header-user-nom}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-	at org.openqa.selenium.By$ById.findElement(By.java:188)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	... 34 more
-... Removed 33 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-RegisterTestSuite-class-failed -->
-          <div class="suite-RegisterTestSuite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.mundijuegos.registerTest.RegisterTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="registerTest">
@@ -1107,24 +1058,24 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'positiveLoginTest')
 data.setCell(0, 2, 'com.mundijuegos.loginTest.LoginTests')
-data.setCell(0, 3, 4434);
+data.setCell(0, 3, 5082);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'positiveLoginTest')
 data.setCell(1, 2, 'com.mundijuegos.loginTest.LoginTests')
-data.setCell(1, 3, 3761);
+data.setCell(1, 3, 4988);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'negativeLoginTests')
 data.setCell(2, 2, 'com.mundijuegos.loginTest.LoginTests')
-data.setCell(2, 3, 2885);
+data.setCell(2, 3, 3686);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'negativeLoginTests')
 data.setCell(3, 2, 'com.mundijuegos.loginTest.LoginTests')
-data.setCell(3, 3, 2480);
+data.setCell(3, 3, 2591);
 window.suiteTableData['LoginTestSuite']= { tableData: data, tableDiv: 'times-div-LoginTestSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 13 seconds</span>
+              <span class="suite-total-time">Total running time: 16 seconds</span>
               <div id="times-div-LoginTestSuite">
               </div> <!-- times-div-LoginTestSuite -->
             </div> <!-- times-div -->
@@ -1148,16 +1099,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'registerTest')
 data.setCell(0, 2, 'com.mundijuegos.registerTest.RegisterTest')
-data.setCell(0, 3, 32775);
+data.setCell(0, 3, 4134);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'registerTest')
 data.setCell(1, 2, 'com.mundijuegos.registerTest.RegisterTest')
-data.setCell(1, 3, 5966);
+data.setCell(1, 3, 3783);
 window.suiteTableData['RegisterTestSuite']= { tableData: data, tableDiv: 'times-div-RegisterTestSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 38 seconds</span>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
               <div id="times-div-RegisterTestSuite">
               </div> <!-- times-div-RegisterTestSuite -->
             </div> <!-- times-div -->
@@ -1181,16 +1132,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'logoutTest')
 data.setCell(0, 2, 'com.mundijuegos.logoutTest.LogoutTests')
-data.setCell(0, 3, 4672);
+data.setCell(0, 3, 9997);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'logoutTest')
 data.setCell(1, 2, 'com.mundijuegos.logoutTest.LogoutTests')
-data.setCell(1, 3, 3926);
+data.setCell(1, 3, 4147);
 window.suiteTableData['LogoutTestSuite']= { tableData: data, tableDiv: 'times-div-LogoutTestSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <span class="suite-total-time">Total running time: 14 seconds</span>
               <div id="times-div-LogoutTestSuite">
               </div> <!-- times-div-LogoutTestSuite -->
             </div> <!-- times-div -->
@@ -1214,16 +1165,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'launchVideoBingo')
 data.setCell(0, 2, 'com.mundijuegos.videoBingo.VideoBingoTest')
-data.setCell(0, 3, 8409);
+data.setCell(0, 3, 7188);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'launchVideoBingo')
 data.setCell(1, 2, 'com.mundijuegos.videoBingo.VideoBingoTest')
-data.setCell(1, 3, 7299);
+data.setCell(1, 3, 6106);
 window.suiteTableData['VideoBingoTestSuite']= { tableData: data, tableDiv: 'times-div-VideoBingoTestSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
               <div id="times-div-VideoBingoTestSuite">
               </div> <!-- times-div-VideoBingoTestSuite -->
             </div> <!-- times-div -->
@@ -1247,16 +1198,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'positiveFacebookLoginTest')
 data.setCell(0, 2, 'com.mundijuegos.loginWithFacebook.LoginWithFacebookTest')
-data.setCell(0, 3, 7944);
+data.setCell(0, 3, 10803);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'positiveFacebookLoginTest')
 data.setCell(1, 2, 'com.mundijuegos.loginWithFacebook.LoginWithFacebookTest')
-data.setCell(1, 3, 7839);
+data.setCell(1, 3, 7231);
 window.suiteTableData['LoginTestWithFacebookSuite']= { tableData: data, tableDiv: 'times-div-LoginTestWithFacebookSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <span class="suite-total-time">Total running time: 18 seconds</span>
               <div id="times-div-LoginTestWithFacebookSuite">
               </div> <!-- times-div-LoginTestWithFacebookSuite -->
             </div> <!-- times-div -->
@@ -1391,52 +1342,52 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.mundijuegos.loginTest.LoginTests</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">Setup(chrome, org.testng.TestRunner@7b451bf4)</span>
+                <span class="method-name">Setup(chrome, org.testng.TestRunner@5c5a91b4)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">positiveLoginTest(Nicoroots, Baator1985)</span>
-                <span class="method-start">6031 ms</span>
+                <span class="method-start">6104 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">9793 ms</span>
+                <span class="method-start">11187 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">Setup(firefox, org.testng.TestRunner@844e66d)</span>
-                <span class="method-start">10424 ms</span>
+                <span class="method-name">Setup(firefox, org.testng.TestRunner@5e37fb82)</span>
+                <span class="method-start">12308 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">positiveLoginTest(Nicoroots, Baator1985)</span>
-                <span class="method-start">13366 ms</span>
+                <span class="method-start">15798 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">17800 ms</span>
+                <span class="method-start">20786 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">Setup(chrome, org.testng.TestRunner@5b665a30)</span>
-                <span class="method-start">19166 ms</span>
+                <span class="method-name">Setup(chrome, org.testng.TestRunner@59ec7020)</span>
+                <span class="method-start">21653 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">negativeLoginTests(Nicoroots, IncorrectPassword)</span>
-                <span class="method-start">24343 ms</span>
+                <span class="method-start">26878 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">26823 ms</span>
+                <span class="method-start">29469 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">Setup(firefox, org.testng.TestRunner@26a45089)</span>
-                <span class="method-start">27428 ms</span>
+                <span class="method-name">Setup(firefox, org.testng.TestRunner@23f60b7d)</span>
+                <span class="method-start">30104 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">negativeLoginTests(Nicoroots, IncorrectPassword)</span>
-                <span class="method-start">30884 ms</span>
+                <span class="method-start">33560 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">33770 ms</span>
+                <span class="method-start">37247 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
@@ -1448,30 +1399,28 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.mundijuegos.registerTest.RegisterTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">Setup(chrome, org.testng.TestRunner@75ed7512)</span>
+                <span class="method-name">Setup(chrome, org.testng.TestRunner@2ba9f986)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">registerTest</span>
-                <span class="method-start">5141 ms</span>
+                <span class="method-start">5238 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">37932 ms</span>
+                <span class="method-start">9022 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">Setup(firefox, org.testng.TestRunner@29147c12)</span>
-                <span class="method-start">38567 ms</span>
+                <span class="method-name">Setup(firefox, org.testng.TestRunner@4aa3fc9a)</span>
+                <span class="method-start">10288 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">registerTest</span>
-                <span class="method-start">41511 ms</span>
+                <span class="method-start">13751 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">47477 ms</span>
+                <span class="method-start">17886 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
@@ -1483,28 +1432,28 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.mundijuegos.logoutTest.LogoutTests</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">Setup(chrome, org.testng.TestRunner@5f45bc8e)</span>
+                <span class="method-name">Setup(chrome, org.testng.TestRunner@70f4f89e)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">logoutTest(Nicoroots, Baator1985)</span>
-                <span class="method-start">5198 ms</span>
+                <span class="method-start">5210 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">9124 ms</span>
+                <span class="method-start">9357 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">Setup(firefox, org.testng.TestRunner@33e50ff2)</span>
-                <span class="method-start">9729 ms</span>
+                <span class="method-name">Setup(firefox, org.testng.TestRunner@634aa81e)</span>
+                <span class="method-start">10004 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">logoutTest(Nicoroots, Baator1985)</span>
-                <span class="method-start">12682 ms</span>
+                <span class="method-start">13492 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">17354 ms</span>
+                <span class="method-start">23489 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
@@ -1516,28 +1465,28 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.mundijuegos.videoBingo.VideoBingoTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">Setup(chrome, org.testng.TestRunner@7ab33ca8)</span>
+                <span class="method-name">Setup(chrome, org.testng.TestRunner@74b1838)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">launchVideoBingo(Nicoroots, Baator1985)</span>
-                <span class="method-start">5141 ms</span>
+                <span class="method-start">5204 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">13551 ms</span>
+                <span class="method-start">11311 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">Setup(firefox, org.testng.TestRunner@704d3b00)</span>
-                <span class="method-start">14170 ms</span>
+                <span class="method-name">Setup(firefox, org.testng.TestRunner@52d96367)</span>
+                <span class="method-start">12017 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">launchVideoBingo(Nicoroots, Baator1985)</span>
-                <span class="method-start">17603 ms</span>
+                <span class="method-start">15479 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">24902 ms</span>
+                <span class="method-start">22667 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
@@ -1549,28 +1498,28 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.mundijuegos.loginWithFacebook.LoginWithFacebookTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">Setup(chrome, org.testng.TestRunner@21e484b)</span>
+                <span class="method-name">Setup(chrome, org.testng.TestRunner@5be51aa)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">positiveFacebookLoginTest(nicotangelo1@gmail.com, Baator1985)</span>
-                <span class="method-start">5145 ms</span>
+                <span class="method-start">5216 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">12984 ms</span>
+                <span class="method-start">12447 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">Setup(firefox, org.testng.TestRunner@191f4d65)</span>
-                <span class="method-start">13620 ms</span>
+                <span class="method-name">Setup(firefox, org.testng.TestRunner@3302035b)</span>
+                <span class="method-start">13099 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">positiveFacebookLoginTest(nicotangelo1@gmail.com, Baator1985)</span>
-                <span class="method-start">16595 ms</span>
+                <span class="method-start">16198 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">24539 ms</span>
+                <span class="method-start">27001 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
